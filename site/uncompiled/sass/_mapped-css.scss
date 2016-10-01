@@ -1,0 +1,137 @@
+$elemPositions: (
+  grass: (
+    '360px, 40px', '550px, 10px', '670px, 340px',
+    '316px, 294px', '470px, 210px', '780px, 200px',
+    '460px, 330px', '910px, 80px', '600px, 40px',
+    '600px, 40px'
+  ),
+  blade-wrap: (
+    '10px, 20px', '20px, 30px', '30px, 20px'
+  ),
+  cloud: (
+    '130px, 70px', '980px, 50px', '900px, 170px'
+  ),
+  wrap-cat: (
+    '230px, 50px', '200px, -12px', '182px, 58pxx',
+    '295px, 24px', '140px, 120px', '210px, 200px',
+    '120px, 200px', '66px, 180px', '50px, 260px',
+    '180px, 270px', '270px, 110px', '120px, 310px',
+    '58px, 24px', '71px, 100px', '220px, 330px',
+    '40px, 310px', '190px, 133px', '168px, 360px',
+    '110px, 30px', '290px, 210px'
+  ),
+  wrap-dog: (
+    '-190px, -10px', '-130px, 10px', '-180px, 80px',
+    '-96px, 104px', '-40px, 170px', '-90px, 350px',
+    '-110px, 170px', '-150px, 210px', '-170px, 280px',
+    '-100px, 270px', '-22px, 230px', '-210px, 220px',
+    '-16px, 24px', '-30px, 100px', '-237px, 40px',
+    '-15px, 310px', '-180px, 149px', '-150px, 360px',
+    '-91px, 30px', '-230px, 320px'
+  )
+);
+
+$elemDimensions: (
+  cloud-1_fluff: (
+    (200px, 104px, '20px, 10px', 1), (180px, 30px, '10px, 0', 0.2), (50px, 60px, '180px, 60px', 0.2),
+    (225px, 90px, '0, 10px', 0.1), (200px, 65px, '13px, 60px', 1)
+  ),
+  cloud-2_fluff: (
+    (90px, 64px, '20px, 10px', 0.9), (110px, 60px, '10px, 0', 0.1), (40px, 60px, '85px, 23px', 0.9),
+    (105px, 70px, '30px, 0', 0.2), (103px, 40px, '26px, 50px', 0.2)
+  ),
+  cloud-3_fluff: (
+    (50px, 44px, '20px, 10px', 0.7), (35px, 30px, '10px, 0', 0.1), (30px, 55px, '47px, 5px', 0.1),
+    (65px, 70px, '25px, 0', 0.1), (20px, 35px, '13px, 28px', 0.3)
+  )
+);
+
+$colorDiff1: -65;
+$colorDiff2: 20;
+$battleFill: (
+  sky: (#2bb2f0, #960000, #fff, #000),
+  fluff: (#fff, #e47600, #000, #9caf9c),
+  ground: (#6b9e63, #3f1800, #f1ffea, #404040),
+  
+  eyebrow: (#000000, #ffffff, #ff9700, #fff),
+  eye: (#ffffff, #000000, #ffe4e4, #fff),
+  pupil: (#000000, #ffffff, #de0000, #000),
+  nose: (#000000, #ffffff, #e6a800, #fff),
+  whisker: (#000000, #ffffff, #e6a800, #fff),
+  
+  wrap-cat_furr: (#ff8f00, #ffb05d, #4a2202, #000),
+  wrap-cat_furr-2: (#bb6a03, #ff6c00, red, #fff),
+  
+  wrap-dog_furr: (#ac824a, #f86900, #250d00, #000),
+  wrap-dog_furr-2: (#63431a, #52004b, #984c00, #115000),
+  
+  raygun_shell: (#555555, #555555, #555555 + $colorDiff1, #555555 + $colorDiff2),
+  raygun_laser: (#000000, #000000, #000000  + $colorDiff1, #000000  + $colorDiff2),
+  raygun_rim: (#000000, #000000, #000000  + $colorDiff1, #000000  + $colorDiff2),
+  raygun_stand: (#363636, #363636, #363636  + $colorDiff1, #363636  + $colorDiff2),
+  raygun_base: (#e1e1e1, #db94a0, #db94a0 + $colorDiff1, #db94a0 + $colorDiff2),
+  raygun_charger: (#0ff, #db94a0, #db94a0 + $colorDiff1, #db94a0 + $colorDiff2),
+  raygun_ray-bit: (#000, #000, #000, #fff),
+  
+  cannon_barrel: (#959595, #959595, #959595 + $colorDiff1, #959595  + $colorDiff2),
+  cannon_ball: (#000000, #000000, #000000 + $colorDiff1, #000000  + $colorDiff2),
+  cannon_wheel: (#ddd, #ddd, #ddd + $colorDiff1, #ddd  + $colorDiff2),
+  cannon_spoke: (#111111, #000, #000 + $colorDiff1, #000000  + $colorDiff2)
+);
+
+$battleStroke: (
+  wrap-cat_stroke: (#000, #ff4300, #ffb34f, #e4e4e4),
+  wrap-dog_stroke: (#000, #ff003e, #008a46, #aeffd7),
+  blade: (#4d8145, #850000, #95ff84, #696969),
+  halo: (yellow, yellow, yellow, yellow),
+  cannon_wheel: (#362f2d, #000000, #000 + $colorDiff1, #000000  + $colorDiff2),
+  raygun_wheel: (#000, #000, #000 + $colorDiff1, #000000  + $colorDiff2)
+);
+
+$whiskersPosition: (
+  whiskers_whisker: (
+    (5px, 12px, -8px, '-60deg'), 
+    (8px, 10px, -12px, '-20deg'), 
+    (6px, 7px, -11px, '5deg')
+  )
+);
+
+$catTail: (
+  cat_tail-section: (
+    ('#{$border-width 0}', 0, '-6px, -13px'),
+    ('#{0 0 $border-width $border-width}', '#{0 0 0 $border-radius}', '-13px, -12px'),
+    ('#{0 $border-width}', 0, '-13px, -18px'),
+    ('#{$border-width $border-width 0 0}', '#{0 $border-radius 0 0}', '-12px, -25px'),
+    ('#{$border-width 0 $border-width $border-width}', '#{$border-radius 0 0 $border-radius}', '-19px, -25px')
+  )
+);
+
+$rayBits: (
+  ray_ray-bit: (
+    (20px, 0px, 24px, '5deg'),
+    (10px, 0px, 44px, '-15deg'),
+    (10px, 2px, 51px, '65deg'),
+    (60px, 3px, 57px, '-5deg'),
+    (10px, 2px, 114px, '15deg'),
+    (10px, 1px, 122px, '-25deg'),
+    (120px, 4px, 130px, '5deg'),
+    (35px, 2px, 247px, '-25deg'),
+    (30px, -4px, 280px, '5deg'),
+    (10px, -5px, 309px, '-25deg'),
+    (50px, 1px, 316px, '18deg'),
+    (120px, 14px, 364px, '5deg'),
+    (21px, 12px, 480px, '-45deg'),
+    (100px, 17px, 496px, '15deg'),
+    (20px, 26px, 592px, '-25deg'),
+    (38px, 20px, 609px, '-25deg')
+  )
+);
+
+@include mappedDeclarations($elemPositions, 'translate');
+@include mappedDeclarations($elemDimensions, 'width', 'height', 'translate', 'opacity');
+@include mappedDeclarations($whiskersPosition, 'width', 'top', 'left', 'rotate');
+@include mappedDeclarations($catTail, 'border-width', 'border-radius', 'translate');
+@include mappedDeclarations($rayBits, 'width', 'top', 'left', 'rotate');
+
+@include mappedColors($battleFill);
+@include mappedColors($battleStroke, 'border-color');

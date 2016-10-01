@@ -1,0 +1,222 @@
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  
+  @return $string;
+}
+
+@function parseSelector($elem){
+  @return #{str-replace($elem, '_', ' .')};
+}
+
+@mixin colorSwap($selector, $mapValue, $prop){
+  
+//     $swaps: (
+//     ('init', 1, 0),
+//     ('flare', 1, 20),
+//     ('x2', 1, -150),
+//     ('x3', 1, -100),
+//     ('x4', 3, 0)
+//   );
+  
+//   @each $value in $swaps{
+//     .#{nth($value, 1)} .#{$selector}{
+//       #{$prop}: #{nth($mapValue, nth($value, 2)) + nth($value, 3)};
+//     }
+  // }
+  
+  .init .#{$selector}{
+    #{$prop}: #{nth($mapValue, 1)};
+  }
+  
+  .light .#{$selector}{
+    #{$prop}: #{saturate(nth($mapValue, 1) + 25, 5%)};
+  }
+  
+  .laser-1 .#{$selector}{
+     #{$prop}: #{nth($mapValue, 3)};
+  }
+  
+  .laser-2 .#{$selector}{
+     #{$prop}: #{nth($mapValue, 3) - 40};
+  }
+  
+  .laser-hit-1 .#{$selector}{
+     #{$prop}: #{nth($mapValue, 4)};
+  }
+  
+  .laser-hit-2 .#{$selector}{
+     #{$prop}: #{mix(nth($mapValue, 4), #aeffd7)};
+  }
+  
+  .expl-1 .#{$selector}{
+    #{$prop}: #{nth($mapValue, 2)};
+  }
+  
+  .expl-2 .#{$selector}{
+    #{$prop}: #{mix(nth($mapValue, 2), maroon - 15)};
+  }
+  
+  .expl-3 .#{$selector}{
+    #{$prop}: #{saturate(mix(nth($mapValue, 2), red - 70), 20%)};
+  }
+}
+
+@mixin mappedColors($colorMap, $prop: background-color){
+  @for $i from 1 through length($colorMap){
+    $mapValue: nth(map-values($colorMap), $i);
+    $selector: parseSelector(nth(map-keys($colorMap), $i));
+    @include colorSwap($selector, $mapValue, $prop);
+  }
+}
+
+// @mixin mappedColors($colorMap, $prop...){
+//   @for $i from 1 through length($colorMap){
+//     $mapValue: nth(map-values($colorMap), $i);
+//     $selector: parseSelector(nth(map-keys($colorMap), $i));
+    
+//     $swaps: (
+//       ('init', 1, 0),
+//       ('x1', 2, 77)
+//     );
+
+//     @for $j from 1 through length($swaps){
+//       $value: nth($swaps, $j);
+//       .#{nth($value, 1)} .#{$selector}{
+
+//         @for $k from 1 through length($prop){
+//           $propValue: nth($mapValue, nth($value, 2));
+//           $thisProp: nth($prop, $k);
+//           $thisValue: nth($propValue, $k) + nth($value, 3);
+//           #{$thisProp}: #{$thisValue};
+//         }
+//       }
+//     }
+//   }
+// }
+
+@mixin mappedDeclarations($map, $property...){
+  @for $i from 1 through length(map-keys($map)){
+    $thisKey: nth(map-keys($map), $i);
+    $selector: #{parseSelector(#{$thisKey})};
+    @for $j from 1 through length(map-get($map, $thisKey)){
+      .#{$selector}:nth-child(#{$j}){
+        @for $k from 1 through length($property){
+          $propValue: nth(map-get($map, $thisKey), $j);
+          $thisProp: nth($property, $k);
+          $thisValue: nth($propValue, $k);
+          
+          @if(type-of($thisValue) == 'number'){
+            #{$thisProp}: #{$thisValue};
+          }
+          @else if(type-of($thisValue) == 'string'){
+            @if($thisProp == 'translate' or $thisProp == 'skew' or $thisProp == 'rotate'){
+              transform: #{$thisProp}unquote("(")#{$thisValue}unquote(")");
+            }
+            @else{
+              #{$thisProp}: #{$thisValue};
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin t($x, $y){
+  transform:translate3d($x, $y, 0);
+}
+
+@mixin r($angle){
+  transform:rotate(#{$angle}deg);
+}
+
+@mixin tr($translate:0, $angle:0, $angleInterval: false){
+  @if($translate == 0){
+    $translate: '0,0';
+  }
+  @if($translate == 'center'){
+    $translate: '-50%, -50%';
+    top: 50%;
+    left: 50%;
+  }
+  @if($angleInterval == true){
+    @for $i from 1 through $angle{
+      $newAngle: 360 / $angle;
+      &:nth-child(#{$i}){
+        transform:translate(#{$translate}) rotate(#{$newAngle * ($i - 1)}deg);
+      }
+    }
+  }
+  @else{
+    transform:translate(#{$translate}) rotate(#{$angle}deg);
+  }
+}
+
+@mixin s($x, $y){
+  transform:skew(#{$x}deg, #{$y}deg);
+}
+
+@mixin size($w, $h: $w){
+  width: $w;
+  height: $h;
+}
+
+$border-width: 1px;
+$border-radius: 4px;
+$border-radius-round: 100em;
+@mixin shape($radius: 0, $pointDir: null, $border-type: $border-width, $border: $border-width){
+  
+  @if($radius == 'round'){
+    border-radius:$border-radius-round;
+  }
+  @else{
+    border-radius: #{$radius};
+  }
+  
+  @if($border-type == 'half'){
+    border-width: $border $border 0 0;
+  }
+  @else{
+    border-width: #{$border-type};
+  }
+  
+  border-style:solid;
+  
+  @if($pointDir == 'up'){
+    @include r(-45);
+  }
+  @else if($pointDir == 'down'){
+    @include r(-225);
+  }
+  @else if($pointDir == 'left'){
+    @include r(-135);
+  }
+  @else if($pointDir == 'right'){
+    @include r(45);
+  }
+  
+}
+
+@mixin a($data-anim, $operator: '=', $separator: ' ', $parent: '.main'){
+  #{$parent}#{$separator}[data-anim-key#{$operator}"#{$data-anim}"]{
+    @content;
+  }
+}
+
+@mixin keys($name){
+  @keyframes #{$name}{
+    @content;
+  }
+}
+
+%abs{
+  position:absolute;
+}
+
+%center{
+  @include tr('center');
+}

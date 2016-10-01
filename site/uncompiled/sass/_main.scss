@@ -1,0 +1,714 @@
+body{
+  background-color: #111;
+}
+
+.main{
+  @include size(1300px, 700px); //h: 1300
+  @extend %center;
+  overflow:hidden;
+  
+  &, *{
+    @extend %abs;
+  }
+}
+ 
+.sky{
+  @include size(100%);
+  top:0; 
+}
+
+.cloud{
+  @include size(20px);
+  
+  .fluff{
+    @include shape(8px, '', 0);
+  }
+}
+
+.ground{
+  @include size(100%, 60%);
+  bottom:0;
+}
+
+.grass{
+  @include size(30px);
+}
+
+.blade{
+  @include size(10px);
+  @include shape(0, 'up', 'half');
+}
+
+.animal{
+  position:relative;
+  float:left;
+  
+  @include size(50%, 100%);
+  
+  .halo{
+    @include size(20px);
+    @include shape('round', null, 5px);
+    transform: translate(7px, -33px) perspective(500px) rotateX(75deg);
+    z-index: 1;
+    opacity: 0;
+  }
+  
+  .dead{
+    opacity: 0;
+    top: -100px;
+    
+    .halo{
+      opacity: 1;
+    }
+  }
+  
+  &-wrap{
+    top: 0;
+    &, .bod, .face{
+      @include size(42px, 47px);
+    }
+    
+    .bod{
+      @include shape(4px);
+    }
+    
+    .leg{
+      @include size(10px, 6px);
+      @include shape('#{0 0 $border-radius-round $border-radius-round}', null, '#{0 $border-width $border-width}');
+      bottom:-7px;
+        
+      &-left{
+        left:7px
+      }
+        
+      &-right{
+        left:23px
+      }
+    }
+    
+    .face{
+      top:5px;
+      left:2px;
+      
+      .eyebrow{
+        @include size(10px, 2px);
+      }
+      
+      .eye{
+        @include size(12px);
+        @include shape('round', 0, 0);
+        top:3px;
+      }
+      
+      .pupil{
+        @include size(3px);
+        @include shape('round', 0, 0);
+        @include t(-50%, -50%);
+        top:50%;
+      }
+    }
+    
+    .arm{
+      @include size(9px, 11px);
+      @include shape('#{0 0 $border-radius-round $border-radius-round}', null, 0);
+      top: 30px;
+      opacity:0.4;
+    }
+  }
+  
+  .wrap{
+    &-cat{
+      left:0;
+    }
+
+    &-dog{
+      right:0;
+    }
+  }
+  
+  .cat{
+    
+    .ear{
+      @include size(14px);
+      @include shape(0, '', 'half');
+      top: -9px;
+      transform:rotate(-45deg) skew(-20deg, -20deg);
+      
+      &-left{
+        right: 3px;
+      }
+      
+      &-right{
+        right: 12px;
+      }
+    }
+    
+    .nose{
+      @include size(5px);
+      @include shape('round', 0, 0);
+      right: 0;
+      top: 20px;
+    }
+    
+    .arm{
+      left: 10px;
+    }
+    
+    .eyebrow{
+      @include r(20);
+      right: 4px;
+    }
+    
+    .eye{
+      right: 4px;
+    }
+    
+    .pupil{
+      right: 1px;
+    }
+    
+    .whiskers{
+      top: 14px;
+      right: 0;
+      
+      .whisker{
+        height: 1px;
+      }
+    }
+    
+    .tail{
+      bottom:0;
+      left:0;
+      
+      &-section{
+        @include size(6px);
+        border-style: solid;
+      }
+      
+    }
+  }
+  
+  .dog{
+    
+    .ear{
+      @include size(14px, 21px);
+      @include shape('#{0 0 $border-radius $border-radius}', null, 0);
+      top: 0;
+      right: 10px;
+    }
+    
+    .arm{
+      right: 13px;
+    }
+    
+    .eyebrow{
+      @include r(-20);
+    }
+    
+    .eye{
+      left:1px;
+    }
+    
+    .pupil{
+      left: 4px;
+    }
+    
+    .snout{
+      @include size(7px, 18px);
+      @include shape('#{$border-radius 0 0 $border-radius}', null, '#{$border-width 0 $border-width $border-width}');
+      top:15px;
+      left:-10px;
+    }
+    
+    .nose{
+      @include size(8px, 6px);
+      @include shape('round', 0, 0);
+      top:-2px;
+      left:-1px;
+    }
+  
+    .tail{
+      @include size(4px);
+      @include shape('#{0 $border-radius $border-radius 0}', null, '#{$border-width $border-width $border-width 0}');
+      bottom:5px;
+      right:-5px;
+    }
+    
+  }
+}
+
+.raygun{
+    //@include t(390px, 95px);
+    top: 95px;
+    left: 390px;
+    //@include t(-500px, 0);
+    
+    .shell{
+      @include size(40px);
+      @include shape('80% 0 55% 50% / 55% 0 80% 50%');
+      @include r(-135);
+      z-index: 1;
+      overflow: hidden;
+    }
+  
+    .charger{
+      opacity: 0;
+    }
+    
+    .barrel{
+      @include size(23px, 2px);
+      @include shape();
+      top: 20px;
+      left: 42px;
+      
+      .ring{
+        //@include size(3px, 12px);
+        @include shape('', 0, 0);
+        width: 2px;
+        left: -3px;
+        
+        @for $i from 1 through 4{
+          &:nth-child(#{$i}){
+            height: 8px + $i*3;
+            @include t(25px - ($i * 5), -4px - $i);
+          }
+        }
+      }
+      
+      .ray{
+        &-bit{
+          transition: opacity 0s;
+          opacity: 0;
+        }
+      }
+    }
+    
+    .stand{
+      @include size(12px, 20px);
+      @include shape();
+      top: 30px;
+      left: 15px;
+    }
+    
+    .base{
+      @include size(120px, 8px);
+      @include shape('round', 0, 0);
+      top: 51px;
+      left: -35px;
+    }
+    
+    .wheel{
+      $raygunWheel: 18px;
+      @include size($raygunWheel);
+      @include shape('round', '', 5px);
+      top:-10px;
+      
+      &:nth-child(1){
+        left:-13px;
+      }
+      
+      &:nth-child(2){
+        left:102px;
+      }
+    
+      .hub{
+        @include size(7px);
+        @include shape('round', 0, 0);
+        @extend %center;
+      }
+      
+      .spokes{
+        @extend %center;
+        
+        .spoke{
+          @include size($raygunWheel, 2px);
+          @include tr('center', 3, true);
+        }
+      }
+    }
+  }
+  
+  .cannon{
+    top: 170px;
+    left: 890px;
+    
+    .trajectory{
+      @include size(1100px);
+      @include shape('round', 0, 0);
+      top: -150px;
+      left: -850px;
+      
+      .ball{
+        @include size(22px);
+        @include shape('round', 0, 0);
+        display: none;
+        top: 96px;
+        right: 214px;
+        opacity: 0;
+      }
+    }
+    
+    .muzzle{
+      @include size(120px, 22px);
+      @include shape('#{50em $border-radius-round $border-radius-round 50em / 100em}');
+      @include r(10);
+      transform-origin: 93px 8px;
+      
+      .cascabel{
+        @include size(7px);
+        @include shape('round');
+        top: 8px;
+        left: 118px;
+      }
+    }
+    
+    .wheel{
+      $cannonWheel: 32px;
+      @include size($cannonWheel);
+      @include shape('round', 0, 9px);
+      top: -12px;
+      left: 65px;
+      
+      .spokes{
+        @extend %center;
+        
+        .spoke{
+          @include size($cannonWheel, 1px);
+          @include tr('center', 9, true);
+        }
+      }
+    }
+  }
+
+
+@include a("animals-init", $separator: ""){
+  .animal-cat, .raygun{
+    @include t(-500px, 0);
+  }
+  .animal-dog, .cannon{
+    @include t(500px, 0);
+  }
+}
+
+@include a("animals-meet"){
+  $A-M-dur: 4;
+  $A-M-sec: #{$A-M-dur}s;
+  
+  &.animal, &.weapon{
+    @include t(0, 0);
+    transition:all $A-M-sec linear;
+  }
+  
+  &.raygun .wheel{
+    //@include t(300px, 300px)
+    animation: moveRaygunTire #{$A-M-dur/2}s linear 2;
+    
+    @keyframes moveRaygunTire{
+      from{
+        @include tr(0, 0);
+      }
+      to{
+        @include tr(0, 360);
+      }
+    }
+  }
+  
+  &.cannon .wheel{
+    //@include t(300px, 300px)
+    animation: moveCannonTire $A-M-sec linear;
+    
+    @keyframes moveCannonTire{
+      from{
+        @include tr(0, 0);
+      }
+      to{
+        @include tr(0, -360);
+      }
+    }
+  }
+  
+  .cat, .dog{
+    animation: walk 0.1s linear ($A-M-dur * 10);
+    
+    @keyframes walk{ 
+      from{
+        @include t(0, 4px);
+      }
+      to{
+        @include t(0, 0);
+      }
+    }
+  }
+} 
+
+@include a("animals-talk", "*="){
+  &:before{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  
+  &.animal-cat{
+    &:before{
+      content: 'We hate you';
+      right: 180px;
+      top: 12px;
+    }
+  }
+  
+  &.animal-dog{
+    &:before{
+      content: 'We hate you more';
+      top: 35px;
+      left: 190px;
+    }
+  }
+}
+
+@include a("animals-talk-in"){
+  
+  &:before{
+    animation: popGreeting 0.5s ease-in 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  } 
+  
+  @include keys(popGreeting){
+    from{
+      opacity: 0;
+      @include t(0, 4px);
+    }
+    to{
+      opacity: 1;
+      @include t(0, 0);
+    }
+  }
+  
+  @include keys(closeGreeting){
+    from{
+      opacity: 1;
+      @include t(0, 0);
+    }
+    to{
+      opacity: 0;
+      @include t(0, 4px);
+    }
+  }
+  
+  &.animal-dog{
+    &:before{
+      animation-delay: 2s;
+    }
+  }
+}
+
+@include a("animals-talk-out"){
+  
+  &:before{
+    animation: outGreeting 0.5s ease-out 1;
+    animation-fill-mode: forwards;
+    opacity: 1;
+  }
+  
+  @include keys(outGreeting){
+    from{
+      opacity: 1;
+    }
+    to{
+      opacity: 0;
+      @include t(0, -4px);
+    }
+  }
+}
+
+@include a("cannon-engage", "*=", ""){
+  .muzzle{
+    @include tr(0, 40);
+  }
+}
+
+@include a("cannon-engage-aim", $separator: ""){
+  .muzzle{
+    transition-duration: 1.8s;
+  }
+}
+
+@include a("cannon-engage-shoot", $separator: ""){
+  
+  .muzzle{
+    animation: muzzleRecoil 0.8s ease-in;
+    
+    @include keys(muzzleRecoil){
+      from{
+        @include tr('7px, 7px', 40);
+      }
+      to{
+        @include tr(0, 40);
+      }
+    }
+  }
+  
+  .trajectory{
+    @include tr(0, -80);
+    transition-duration: 1.15s;
+    transition-timing-function: linear;
+  }
+  
+  .ball{
+    display: block;
+    opacity: 1;
+  }
+}
+
+@include a("cannon-engage-hit", $separator: ""){
+  .ball{
+    display: none;
+  }
+  
+  .animal .cat{
+    animation: catsHit 0.1s infinite;
+    
+    @include keys(catsHit){
+      from{
+        @include t(0, -3px);
+      }
+      to{
+        @include t(0, 3px);
+      }
+    }
+  }
+}
+
+@include a("weapon-disengage", "=", ""){
+  &, *{
+    transition: all 3s;
+  }
+}
+
+@include a("raygun-engage-charge", $separator: ""){
+  .charger{
+    $chargerW: 16px;
+    $chargerDelay: 0.3s;
+    @include size($chargerW, 200px);
+    @include tr('56px, -85px',-45);
+    transition: opacity $chargerDelay;
+    
+    @for $i from 1 through 4{
+      &:nth-child(#{$i}){
+        top:20px + ($i - 1) * $chargerW;
+        opacity: 1;
+        transition-delay: ($i - 1) * $chargerDelay;
+      }
+    }
+  }
+}
+
+@include a("raygun-engage", "*=", ""){
+  .ray{
+    &-bit{
+      height:3px;
+    }
+    
+    &-2{
+      transform: scaleY(-1) rotate(-5deg);
+    }
+    
+    $rayRotate: (0, 1, -1);
+    @for $i from 1 through length($rayRotate){
+      &-wrap-#{$i}{
+        @include r(#{nth($rayRotate, $i)});
+      }
+    }
+  }
+}
+
+@include a("raygun-engage-shoot", $separator: ''){
+  $rayDelay: 0.05s;
+  .ray{
+    &-bit{ 
+      opacity: 1;
+      
+      @for $i from 1 through 16{
+        &:nth-child(#{$i}){
+          transition-delay: ($i - 1) * $rayDelay;
+        }
+      }
+    }
+  }
+}
+
+@include a("raygun-engage-hit", $separator: ''){
+  .ray{
+    &-bit{
+      opacity: 1;
+    }
+  }
+  
+  .animal .dog{
+    animation: lasered 0.1s linear infinite;
+    @include keys(lasered){
+      from{
+        transform: skew(20deg);
+      }
+      to{
+        transform: skew(-20deg);
+      }
+    }
+    //transform: skew(30deg)
+  }
+}
+
+.score{
+  opacity: 0;
+  z-index: 1;
+  @extend %center;
+}
+
+[data-winner]{
+  
+  opacity: 1;
+  transition: opacity 2s ease;
+  
+  &:before, &:after, .play{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    display: block;
+  }
+  
+  &:before{
+    content: attr(data-winner) 's win!';
+    font-size: 45px;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    margin: 0 0 4px;
+  }
+  
+  &:after{
+    content: "maybe the " attr(data-loser) "s will get'em next time";
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+  
+  .play{
+    @include t(0, 30px);
+    transition: all 0s;
+    
+    &:before{
+      content:'try again?';
+      @include shape($border-radius);
+      border-color: #fff;
+      font-size: 12px;
+      padding: 5px;
+    }
+    
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
