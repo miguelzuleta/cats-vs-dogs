@@ -1,10 +1,20 @@
 var gulp = require('gulp');
-var haml = require('gulp-haml');
+var haml = require('gulp-ruby-haml');
 var sass = require('gulp-sass');
+
+// gulp.task('haml', function(){
+// 	gulp.src('site/uncompiled/haml/index.haml')
+// 		.pipe(haml({
+// 		  compiler: 'creationix'
+// 		}))
+// 		.pipe(gulp.dest('site/compiled'));
+// });
 
 gulp.task('haml', function(){
 	gulp.src('site/uncompiled/haml/index.haml')
-		.pipe(haml())
+		.pipe(haml({
+		  trace: true
+		}))
 		.pipe(gulp.dest('site/compiled'));
 });
 
