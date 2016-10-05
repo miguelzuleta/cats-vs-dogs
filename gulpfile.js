@@ -1,21 +1,23 @@
-var gulp = require('gulp');
-var haml = require('gulp-ruby-haml');
-var sass = require('gulp-sass');
+var gulp = require('gulp'),
+	haml = require('gulp-ruby-haml'),
+	sass = require('gulp-sass'),
+	connect = require('gulp-connect');
 
-// gulp.task('haml', function(){
-// 	gulp.src('site/uncompiled/haml/index.haml')
-// 		.pipe(haml({
-// 		  compiler: 'creationix'
-// 		}))
-// 		.pipe(gulp.dest('site/compiled'));
-// });
+gulp.task('connect', function(){
+	connect.server({
+		root: 'site/compiled',
+		livereload: true
+	});
+});
+
 
 gulp.task('haml', function(){
 	gulp.src('site/uncompiled/haml/index.haml')
 		.pipe(haml({
 		  trace: true
 		}))
-		.pipe(gulp.dest('site/compiled'));
+		.pipe(gulp.dest('site/compiled'))
+		.pipe(connect.reload());
 });
 
 gulp.task('sass', function(){
@@ -27,9 +29,15 @@ gulp.task('sass', function(){
 		.pipe(gulp.dest('site/compiled'))
 });
 
-gulp.task('watch', function(){
-	gulp.watch('site/uncompiled/sass/*.scss', ['sass'])
-	gulp.watch('site/uncompiled/haml/*.haml', ['haml'])
+gulp.task('partials', function(){
+	gulp.src('site/uncompiled/**/*.*')
+		.pipe(connect.reload());
 });
 
-gulp.task('default', ['haml', 'sass', 'watch']);
+gulp.task('watch', function(){
+	gulp.watch('site/uncompiled/sass/*.scss', ['sass']);
+	gulp.watch('site/uncompiled/haml/*.haml', ['haml']);
+	gulp.watch('site/uncompiled/**/*.*', ['partials']);
+});
+
+gulp.task('default', ['haml', 'sass', 'connect', 'watch']);
