@@ -9,7 +9,7 @@ gulp.task('haml', function(){
 });
 
 gulp.task('sass', function(){
-	gulp.src('site/uncompiled/sass/overview.scss')
+	gulp.src('site/uncompiled/sass/styles.scss')
 		.pipe(sass({
 			outputStyle: 'expanded',
 			sourceComments: true
