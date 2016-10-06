@@ -1,1 +1,2903 @@
-.main,.main *{position:absolute}.main,.raygun .wheel .hub,.raygun .wheel .spokes,.cannon .wheel .spokes,.score{top:50%;left:50%;transform:translate(-50%, -50%) rotate(0deg)}.grass:nth-child(1){transform:translate(360px, 40px)}.grass:nth-child(2){transform:translate(550px, 10px)}.grass:nth-child(3){transform:translate(670px, 340px)}.grass:nth-child(4){transform:translate(316px, 294px)}.grass:nth-child(5){transform:translate(470px, 210px)}.grass:nth-child(6){transform:translate(780px, 200px)}.grass:nth-child(7){transform:translate(460px, 330px)}.grass:nth-child(8){transform:translate(910px, 80px)}.grass:nth-child(9){transform:translate(600px, 40px)}.grass:nth-child(10){transform:translate(600px, 40px)}.blade-wrap:nth-child(1){transform:translate(10px, 20px)}.blade-wrap:nth-child(2){transform:translate(20px, 30px)}.blade-wrap:nth-child(3){transform:translate(30px, 20px)}.cloud:nth-child(1){transform:translate(130px, 70px)}.cloud:nth-child(2){transform:translate(980px, 50px)}.cloud:nth-child(3){transform:translate(900px, 170px)}.wrap-cat:nth-child(1){transform:translate(230px, 50px)}.wrap-cat:nth-child(2){transform:translate(200px, -12px)}.wrap-cat:nth-child(3){transform:translate(182px, 58pxx)}.wrap-cat:nth-child(4){transform:translate(295px, 24px)}.wrap-cat:nth-child(5){transform:translate(140px, 120px)}.wrap-cat:nth-child(6){transform:translate(210px, 200px)}.wrap-cat:nth-child(7){transform:translate(120px, 200px)}.wrap-cat:nth-child(8){transform:translate(66px, 180px)}.wrap-cat:nth-child(9){transform:translate(50px, 260px)}.wrap-cat:nth-child(10){transform:translate(180px, 270px)}.wrap-cat:nth-child(11){transform:translate(270px, 110px)}.wrap-cat:nth-child(12){transform:translate(120px, 310px)}.wrap-cat:nth-child(13){transform:translate(58px, 24px)}.wrap-cat:nth-child(14){transform:translate(71px, 100px)}.wrap-cat:nth-child(15){transform:translate(220px, 330px)}.wrap-cat:nth-child(16){transform:translate(40px, 310px)}.wrap-cat:nth-child(17){transform:translate(190px, 133px)}.wrap-cat:nth-child(18){transform:translate(168px, 360px)}.wrap-cat:nth-child(19){transform:translate(110px, 30px)}.wrap-cat:nth-child(20){transform:translate(290px, 210px)}.wrap-dog:nth-child(1){transform:translate(-190px, -10px)}.wrap-dog:nth-child(2){transform:translate(-130px, 10px)}.wrap-dog:nth-child(3){transform:translate(-180px, 80px)}.wrap-dog:nth-child(4){transform:translate(-96px, 104px)}.wrap-dog:nth-child(5){transform:translate(-40px, 170px)}.wrap-dog:nth-child(6){transform:translate(-90px, 350px)}.wrap-dog:nth-child(7){transform:translate(-110px, 170px)}.wrap-dog:nth-child(8){transform:translate(-150px, 210px)}.wrap-dog:nth-child(9){transform:translate(-170px, 280px)}.wrap-dog:nth-child(10){transform:translate(-100px, 270px)}.wrap-dog:nth-child(11){transform:translate(-22px, 230px)}.wrap-dog:nth-child(12){transform:translate(-210px, 220px)}.wrap-dog:nth-child(13){transform:translate(-16px, 24px)}.wrap-dog:nth-child(14){transform:translate(-30px, 100px)}.wrap-dog:nth-child(15){transform:translate(-237px, 40px)}.wrap-dog:nth-child(16){transform:translate(-15px, 310px)}.wrap-dog:nth-child(17){transform:translate(-180px, 149px)}.wrap-dog:nth-child(18){transform:translate(-150px, 360px)}.wrap-dog:nth-child(19){transform:translate(-91px, 30px)}.wrap-dog:nth-child(20){transform:translate(-230px, 320px)}.cloud-1 .fluff:nth-child(1){width:200px;height:104px;transform:translate(20px, 10px);opacity:1}.cloud-1 .fluff:nth-child(2){width:180px;height:30px;transform:translate(10px, 0);opacity:.2}.cloud-1 .fluff:nth-child(3){width:50px;height:60px;transform:translate(180px, 60px);opacity:.2}.cloud-1 .fluff:nth-child(4){width:225px;height:90px;transform:translate(0, 10px);opacity:.1}.cloud-1 .fluff:nth-child(5){width:200px;height:65px;transform:translate(13px, 60px);opacity:1}.cloud-2 .fluff:nth-child(1){width:90px;height:64px;transform:translate(20px, 10px);opacity:.9}.cloud-2 .fluff:nth-child(2){width:110px;height:60px;transform:translate(10px, 0);opacity:.1}.cloud-2 .fluff:nth-child(3){width:40px;height:60px;transform:translate(85px, 23px);opacity:.9}.cloud-2 .fluff:nth-child(4){width:105px;height:70px;transform:translate(30px, 0);opacity:.2}.cloud-2 .fluff:nth-child(5){width:103px;height:40px;transform:translate(26px, 50px);opacity:.2}.cloud-3 .fluff:nth-child(1){width:50px;height:44px;transform:translate(20px, 10px);opacity:.7}.cloud-3 .fluff:nth-child(2){width:35px;height:30px;transform:translate(10px, 0);opacity:.1}.cloud-3 .fluff:nth-child(3){width:30px;height:55px;transform:translate(47px, 5px);opacity:.1}.cloud-3 .fluff:nth-child(4){width:65px;height:70px;transform:translate(25px, 0);opacity:.1}.cloud-3 .fluff:nth-child(5){width:20px;height:35px;transform:translate(13px, 28px);opacity:.3}.whiskers .whisker:nth-child(1){width:5px;top:12px;left:-8px;transform:rotate(-60deg)}.whiskers .whisker:nth-child(2){width:8px;top:10px;left:-12px;transform:rotate(-20deg)}.whiskers .whisker:nth-child(3){width:6px;top:7px;left:-11px;transform:rotate(5deg)}.cat .tail-section:nth-child(1){border-width:1px 0;border-radius:0;transform:translate(-6px, -13px)}.cat .tail-section:nth-child(2){border-width:0 0 1px 1px;border-radius:0 0 0 4px;transform:translate(-13px, -12px)}.cat .tail-section:nth-child(3){border-width:0 1px;border-radius:0;transform:translate(-13px, -18px)}.cat .tail-section:nth-child(4){border-width:1px 1px 0 0;border-radius:0 4px 0 0;transform:translate(-12px, -25px)}.cat .tail-section:nth-child(5){border-width:1px 0 1px 1px;border-radius:4px 0 0 4px;transform:translate(-19px, -25px)}.ray .ray-bit:nth-child(1){width:20px;top:0px;left:24px;transform:rotate(5deg)}.ray .ray-bit:nth-child(2){width:10px;top:0px;left:44px;transform:rotate(-15deg)}.ray .ray-bit:nth-child(3){width:10px;top:2px;left:51px;transform:rotate(65deg)}.ray .ray-bit:nth-child(4){width:60px;top:3px;left:57px;transform:rotate(-5deg)}.ray .ray-bit:nth-child(5){width:10px;top:2px;left:114px;transform:rotate(15deg)}.ray .ray-bit:nth-child(6){width:10px;top:1px;left:122px;transform:rotate(-25deg)}.ray .ray-bit:nth-child(7){width:120px;top:4px;left:130px;transform:rotate(5deg)}.ray .ray-bit:nth-child(8){width:35px;top:2px;left:247px;transform:rotate(-25deg)}.ray .ray-bit:nth-child(9){width:30px;top:-4px;left:280px;transform:rotate(5deg)}.ray .ray-bit:nth-child(10){width:10px;top:-5px;left:309px;transform:rotate(-25deg)}.ray .ray-bit:nth-child(11){width:50px;top:1px;left:316px;transform:rotate(18deg)}.ray .ray-bit:nth-child(12){width:120px;top:14px;left:364px;transform:rotate(5deg)}.ray .ray-bit:nth-child(13){width:21px;top:12px;left:480px;transform:rotate(-45deg)}.ray .ray-bit:nth-child(14){width:100px;top:17px;left:496px;transform:rotate(15deg)}.ray .ray-bit:nth-child(15){width:20px;top:26px;left:592px;transform:rotate(-25deg)}.ray .ray-bit:nth-child(16){width:38px;top:20px;left:609px;transform:rotate(-25deg)}.init .sky{background-color:#2bb2f0}.light .sky{background-color:#4ec7ff}.laser-1 .sky{background-color:#fff}.laser-2 .sky{background-color:#d7d7d7}.laser-hit-1 .sky{background-color:#000}.laser-hit-2 .sky{background-color:#57806c}.expl-1 .sky{background-color:#960000}.expl-2 .sky{background-color:#840000}.expl-3 .sky{background-color:#850000}.init .fluff{background-color:#fff}.light .fluff{background-color:#fff}.laser-1 .fluff{background-color:#000}.laser-2 .fluff{background-color:#000}.laser-hit-1 .fluff{background-color:#9caf9c}.laser-hit-2 .fluff{background-color:#a5d7ba}.expl-1 .fluff{background-color:#e47600}.expl-2 .fluff{background-color:#ab3400}.expl-3 .fluff{background-color:#ac2a00}.init .ground{background-color:#6b9e63}.light .ground{background-color:#80bc77}.laser-1 .ground{background-color:#f1ffea}.laser-2 .ground{background-color:#c9d7c2}.laser-hit-1 .ground{background-color:#404040}.laser-hit-2 .ground{background-color:#77a08c}.expl-1 .ground{background-color:#3f1800}.expl-2 .ground{background-color:#580500}.expl-3 .ground{background-color:#590700}.init .eyebrow{background-color:#000}.light .eyebrow{background-color:#1a1818}.laser-1 .eyebrow{background-color:#ff9700}.laser-2 .eyebrow{background-color:#d76f00}.laser-hit-1 .eyebrow{background-color:#fff}.laser-hit-2 .eyebrow{background-color:#d7ffeb}.expl-1 .eyebrow{background-color:#fff}.expl-2 .eyebrow{background-color:#b87878}.expl-3 .eyebrow{background-color:#f04949}.init .eye{background-color:#fff}.light .eye{background-color:#fff}.laser-1 .eye{background-color:#ffe4e4}.laser-2 .eye{background-color:#d7bcbc}.laser-hit-1 .eye{background-color:#fff}.laser-hit-2 .eye{background-color:#d7ffeb}.expl-1 .eye{background-color:#000}.expl-2 .eye{background-color:#390000}.expl-3 .eye{background-color:#3a0000}.init .pupil{background-color:#000}.light .pupil{background-color:#1a1818}.laser-1 .pupil{background-color:#de0000}.laser-2 .pupil{background-color:#b60000}.laser-hit-1 .pupil{background-color:#000}.laser-hit-2 .pupil{background-color:#57806c}.expl-1 .pupil{background-color:#fff}.expl-2 .pupil{background-color:#b87878}.expl-3 .pupil{background-color:#f04949}.init .nose{background-color:#000}.light .nose{background-color:#1a1818}.laser-1 .nose{background-color:#e6a800}.laser-2 .nose{background-color:#be8000}.laser-hit-1 .nose{background-color:#fff}.laser-hit-2 .nose{background-color:#d7ffeb}.expl-1 .nose{background-color:#fff}.expl-2 .nose{background-color:#b87878}.expl-3 .nose{background-color:#f04949}.init .whisker{background-color:#000}.light .whisker{background-color:#1a1818}.laser-1 .whisker{background-color:#e6a800}.laser-2 .whisker{background-color:#be8000}.laser-hit-1 .whisker{background-color:#fff}.laser-hit-2 .whisker{background-color:#d7ffeb}.expl-1 .whisker{background-color:#fff}.expl-2 .whisker{background-color:#b87878}.expl-3 .whisker{background-color:#f04949}.init .wrap-cat .furr{background-color:#ff8f00}.light .wrap-cat .furr{background-color:#ffa532}.laser-1 .wrap-cat .furr{background-color:#4a2202}.laser-2 .wrap-cat .furr{background-color:#200}.laser-hit-1 .wrap-cat .furr{background-color:#000}.laser-hit-2 .wrap-cat .furr{background-color:#57806c}.expl-1 .wrap-cat .furr{background-color:#ffb05d}.expl-2 .wrap-cat .furr{background-color:#b85127}.expl-3 .wrap-cat .furr{background-color:#e82e00}.init .wrap-cat .furr-2{background-color:#bb6a03}.light .wrap-cat .furr-2{background-color:#da8416}.laser-1 .wrap-cat .furr-2{background-color:red}.laser-2 .wrap-cat .furr-2{background-color:#d70000}.laser-hit-1 .wrap-cat .furr-2{background-color:#fff}.laser-hit-2 .wrap-cat .furr-2{background-color:#d7ffeb}.expl-1 .wrap-cat .furr-2{background-color:#ff6c00}.expl-2 .wrap-cat .furr-2{background-color:#b82f00}.expl-3 .wrap-cat .furr-2{background-color:#b92700}.init .wrap-dog .furr{background-color:#ac824a}.light .wrap-dog .furr{background-color:#ca9c5e}.laser-1 .wrap-dog .furr{background-color:#250d00}.laser-2 .wrap-dog .furr{background-color:#000}.laser-hit-1 .wrap-dog .furr{background-color:#000}.laser-hit-2 .wrap-dog .furr{background-color:#57806c}.expl-1 .wrap-dog .furr{background-color:#f86900}.expl-2 .wrap-dog .furr{background-color:#b52d00}.expl-3 .wrap-dog .furr{background-color:#b62600}.init .wrap-dog .furr-2{background-color:#63431a}.light .wrap-dog .furr-2{background-color:#805d2f}.laser-1 .wrap-dog .furr-2{background-color:#984c00}.laser-2 .wrap-dog .furr-2{background-color:#702400}.laser-hit-1 .wrap-dog .furr-2{background-color:#115000}.laser-hit-2 .wrap-dog .furr-2{background-color:#60a86c}.expl-1 .wrap-dog .furr-2{background-color:#52004b}.expl-2 .wrap-dog .furr-2{background-color:#62001e}.expl-3 .wrap-dog .furr-2{background-color:#630016}.init .raygun .shell{background-color:#555}.light .raygun .shell{background-color:#746969}.laser-1 .raygun .shell{background-color:#141414}.laser-2 .raygun .shell{background-color:#000}.laser-hit-1 .raygun .shell{background-color:dimgray}.laser-hit-2 .raygun .shell{background-color:#8cb4a0}.expl-1 .raygun .shell{background-color:#555}.expl-2 .raygun .shell{background-color:#632323}.expl-3 .raygun .shell{background-color:#8f0000}.init .raygun .laser{background-color:#000}.light .raygun .laser{background-color:#1a1818}.laser-1 .raygun .laser{background-color:#000}.laser-2 .raygun .laser{background-color:#000}.laser-hit-1 .raygun .laser{background-color:#141414}.laser-hit-2 .raygun .laser{background-color:#618a76}.expl-1 .raygun .laser{background-color:#000}.expl-2 .raygun .laser{background-color:#390000}.expl-3 .raygun .laser{background-color:#3a0000}.init .raygun .rim{background-color:#000}.light .raygun .rim{background-color:#1a1818}.laser-1 .raygun .rim{background-color:#000}.laser-2 .raygun .rim{background-color:#000}.laser-hit-1 .raygun .rim{background-color:#141414}.laser-hit-2 .raygun .rim{background-color:#618a76}.expl-1 .raygun .rim{background-color:#000}.expl-2 .raygun .rim{background-color:#390000}.expl-3 .raygun .rim{background-color:#3a0000}.init .raygun .stand{background-color:#363636}.light .raygun .stand{background-color:#534b4b}.laser-1 .raygun .stand{background-color:#000}.laser-2 .raygun .stand{background-color:#000}.laser-hit-1 .raygun .stand{background-color:#4a4a4a}.laser-hit-2 .raygun .stand{background-color:#7ca591}.expl-1 .raygun .stand{background-color:#363636}.expl-2 .raygun .stand{background-color:#541414}.expl-3 .raygun .stand{background-color:#700000}.init .raygun .base{background-color:#e1e1e1}.light .raygun .base{background-color:#fafafa}.laser-1 .raygun .base{background-color:#9a535f}.laser-2 .raygun .base{background-color:#722b37}.laser-hit-1 .raygun .base{background-color:#efa8b4}.laser-hit-2 .raygun .base{background-color:#cfd4c6}.expl-1 .raygun .base{background-color:#db94a0}.expl-2 .raygun .base{background-color:#a64349}.expl-3 .raygun .base{background-color:#e20f17}.init .raygun .charger{background-color:cyan}.light .raygun .charger{background-color:#32ffff}.laser-1 .raygun .charger{background-color:#9a535f}.laser-2 .raygun .charger{background-color:#722b37}.laser-hit-1 .raygun .charger{background-color:#efa8b4}.laser-hit-2 .raygun .charger{background-color:#cfd4c6}.expl-1 .raygun .charger{background-color:#db94a0}.expl-2 .raygun .charger{background-color:#a64349}.expl-3 .raygun .charger{background-color:#e20f17}.init .raygun .ray-bit{background-color:#000}.light .raygun .ray-bit{background-color:#1a1818}.laser-1 .raygun .ray-bit{background-color:#000}.laser-2 .raygun .ray-bit{background-color:#000}.laser-hit-1 .raygun .ray-bit{background-color:#fff}.laser-hit-2 .raygun .ray-bit{background-color:#d7ffeb}.expl-1 .raygun .ray-bit{background-color:#000}.expl-2 .raygun .ray-bit{background-color:#390000}.expl-3 .raygun .ray-bit{background-color:#3a0000}.init .cannon .barrel{background-color:#959595}.light .cannon .barrel{background-color:#b2aaaa}.laser-1 .cannon .barrel{background-color:#545454}.laser-2 .cannon .barrel{background-color:#2c2c2c}.laser-hit-1 .cannon .barrel{background-color:#a9a9a9}.laser-hit-2 .cannon .barrel{background-color:#acd4c0}.expl-1 .cannon .barrel{background-color:#959595}.expl-2 .cannon .barrel{background-color:#834343}.expl-3 .cannon .barrel{background-color:#bc1313}.init .cannon .ball{background-color:#000}.light .cannon .ball{background-color:#1a1818}.laser-1 .cannon .ball{background-color:#000}.laser-2 .cannon .ball{background-color:#000}.laser-hit-1 .cannon .ball{background-color:#141414}.laser-hit-2 .cannon .ball{background-color:#618a76}.expl-1 .cannon .ball{background-color:#000}.expl-2 .cannon .ball{background-color:#390000}.expl-3 .cannon .ball{background-color:#3a0000}.init .cannon .wheel{background-color:#ddd}.light .cannon .wheel{background-color:#f6f6f6}.laser-1 .cannon .wheel{background-color:#9c9c9c}.laser-2 .cannon .wheel{background-color:#747474}.laser-hit-1 .cannon .wheel{background-color:#f1f1f1}.laser-hit-2 .cannon .wheel{background-color:#d0f8e4}.expl-1 .cannon .wheel{background-color:#ddd}.expl-2 .cannon .wheel{background-color:#a76767}.expl-3 .cannon .wheel{background-color:#e23535}.init .cannon .spoke{background-color:#111}.light .cannon .spoke{background-color:#2c2828}.laser-1 .cannon .spoke{background-color:#000}.laser-2 .cannon .spoke{background-color:#000}.laser-hit-1 .cannon .spoke{background-color:#141414}.laser-hit-2 .cannon .spoke{background-color:#618a76}.expl-1 .cannon .spoke{background-color:#000}.expl-2 .cannon .spoke{background-color:#390000}.expl-3 .cannon .spoke{background-color:#3a0000}.init .wrap-cat .stroke{border-color:#000}.light .wrap-cat .stroke{border-color:#1a1818}.laser-1 .wrap-cat .stroke{border-color:#ffb34f}.laser-2 .wrap-cat .stroke{border-color:#d78b27}.laser-hit-1 .wrap-cat .stroke{border-color:#e4e4e4}.laser-hit-2 .wrap-cat .stroke{border-color:#c9f2de}.expl-1 .wrap-cat .stroke{border-color:#ff4300}.expl-2 .wrap-cat .stroke{border-color:#b81a00}.expl-3 .wrap-cat .stroke{border-color:#b91800}.init .wrap-dog .stroke{border-color:#000}.light .wrap-dog .stroke{border-color:#1a1818}.laser-1 .wrap-dog .stroke{border-color:#008a46}.laser-2 .wrap-dog .stroke{border-color:#00621e}.laser-hit-1 .wrap-dog .stroke{border-color:#aeffd7}.laser-hit-2 .wrap-dog .stroke{border-color:#aeffd7}.expl-1 .wrap-dog .stroke{border-color:#ff003e}.expl-2 .wrap-dog .stroke{border-color:#b80018}.expl-3 .wrap-dog .stroke{border-color:#b90016}.init .blade{border-color:#4d8145}.light .blade{border-color:#61a058}.laser-1 .blade{border-color:#95ff84}.laser-2 .blade{border-color:#6dd75c}.laser-hit-1 .blade{border-color:dimgray}.laser-hit-2 .blade{border-color:#8cb4a0}.expl-1 .blade{border-color:#850000}.expl-2 .blade{border-color:#7b0000}.expl-3 .blade{border-color:#7c0000}.init .halo{border-color:#ff0}.light .halo{border-color:#ffff32}.laser-1 .halo{border-color:#ff0}.laser-2 .halo{border-color:#d7d700}.laser-hit-1 .halo{border-color:#ff0}.laser-hit-2 .halo{border-color:#d7ff6c}.expl-1 .halo{border-color:#ff0}.expl-2 .halo{border-color:#b87800}.expl-3 .halo{border-color:#b95d00}.init .cannon .wheel{border-color:#362f2d}.light .cannon .wheel{border-color:#534642}.laser-1 .cannon .wheel{border-color:#000}.laser-2 .cannon .wheel{border-color:#000}.laser-hit-1 .cannon .wheel{border-color:#141414}.laser-hit-2 .cannon .wheel{border-color:#618a76}.expl-1 .cannon .wheel{border-color:#000}.expl-2 .cannon .wheel{border-color:#390000}.expl-3 .cannon .wheel{border-color:#3a0000}.init .raygun .wheel{border-color:#000}.light .raygun .wheel{border-color:#1a1818}.laser-1 .raygun .wheel{border-color:#000}.laser-2 .raygun .wheel{border-color:#000}.laser-hit-1 .raygun .wheel{border-color:#141414}.laser-hit-2 .raygun .wheel{border-color:#618a76}.expl-1 .raygun .wheel{border-color:#000}.expl-2 .raygun .wheel{border-color:#390000}.expl-3 .raygun .wheel{border-color:#3a0000}body{background-color:#111}.main{width:1300px;height:700px;overflow:hidden}.sky{width:100%;height:100%;top:0}.cloud{width:20px;height:20px}.cloud .fluff{border-radius:8px;border-width:0;border-style:solid}.ground{width:100%;height:60%;bottom:0}.grass{width:30px;height:30px}.blade{width:10px;height:10px;border-radius:0;border-width:1px 1px 0 0;border-style:solid;transform:rotate(-45deg)}.animal{position:relative;float:left;width:50%;height:100%}.animal .halo{width:20px;height:20px;border-radius:100em;border-width:5px;border-style:solid;transform:translate(7px, -33px) perspective(500px) rotateX(75deg);z-index:1;opacity:0}.animal .dead{opacity:0;top:-100px}.animal .dead .halo{opacity:1}.animal-wrap{top:0}.animal-wrap,.animal-wrap .bod,.animal-wrap .face{width:42px;height:47px}.animal-wrap .bod{border-radius:4px;border-width:1px;border-style:solid}.animal-wrap .leg{width:10px;height:6px;border-radius:0 0 100em 100em;border-width:0 1px 1px;border-style:solid;bottom:-7px}.animal-wrap .leg-left{left:7px}.animal-wrap .leg-right{left:23px}.animal-wrap .face{top:5px;left:2px}.animal-wrap .face .eyebrow{width:10px;height:2px}.animal-wrap .face .eye{width:12px;height:12px;border-radius:100em;border-width:0;border-style:solid;top:3px}.animal-wrap .face .pupil{width:3px;height:3px;border-radius:100em;border-width:0;border-style:solid;transform:translate3d(-50%, -50%, 0);top:50%}.animal-wrap .arm{width:9px;height:11px;border-radius:0 0 100em 100em;border-width:0;border-style:solid;top:30px;opacity:0.4}.animal .wrap-cat{left:0}.animal .wrap-dog{right:0}.animal .cat .ear{width:14px;height:14px;border-radius:0;border-width:1px 1px 0 0;border-style:solid;top:-9px;transform:rotate(-45deg) skew(-20deg, -20deg)}.animal .cat .ear-left{right:3px}.animal .cat .ear-right{right:12px}.animal .cat .nose{width:5px;height:5px;border-radius:100em;border-width:0;border-style:solid;right:0;top:20px}.animal .cat .arm{left:10px}.animal .cat .eyebrow{transform:rotate(20deg);right:4px}.animal .cat .eye{right:4px}.animal .cat .pupil{right:1px}.animal .cat .whiskers{top:14px;right:0}.animal .cat .whiskers .whisker{height:1px}.animal .cat .tail{bottom:0;left:0}.animal .cat .tail-section{width:6px;height:6px;border-style:solid}.animal .dog .ear{width:14px;height:21px;border-radius:0 0 4px 4px;border-width:0;border-style:solid;top:0;right:10px}.animal .dog .arm{right:13px}.animal .dog .eyebrow{transform:rotate(-20deg)}.animal .dog .eye{left:1px}.animal .dog .pupil{left:4px}.animal .dog .snout{width:7px;height:18px;border-radius:4px 0 0 4px;border-width:1px 0 1px 1px;border-style:solid;top:15px;left:-10px}.animal .dog .nose{width:8px;height:6px;border-radius:100em;border-width:0;border-style:solid;top:-2px;left:-1px}.animal .dog .tail{width:4px;height:4px;border-radius:0 4px 4px 0;border-width:1px 1px 1px 0;border-style:solid;bottom:5px;right:-5px}.raygun{top:95px;left:390px}.raygun .shell{width:40px;height:40px;border-radius:80% 0 55% 50% / 55% 0 80% 50%;border-width:1px;border-style:solid;transform:rotate(-135deg);z-index:1;overflow:hidden}.raygun .charger{opacity:0}.raygun .barrel{width:23px;height:2px;border-radius:0;border-width:1px;border-style:solid;top:20px;left:42px}.raygun .barrel .ring{border-width:0;border-style:solid;width:2px;left:-3px}.raygun .barrel .ring:nth-child(1){height:11px;transform:translate3d(20px, -5px, 0)}.raygun .barrel .ring:nth-child(2){height:14px;transform:translate3d(15px, -6px, 0)}.raygun .barrel .ring:nth-child(3){height:17px;transform:translate3d(10px, -7px, 0)}.raygun .barrel .ring:nth-child(4){height:20px;transform:translate3d(5px, -8px, 0)}.raygun .barrel .ray-bit{transition:opacity 0s;opacity:0}.raygun .stand{width:12px;height:20px;border-radius:0;border-width:1px;border-style:solid;top:30px;left:15px}.raygun .base{width:120px;height:8px;border-radius:100em;border-width:0;border-style:solid;top:51px;left:-35px}.raygun .wheel{width:18px;height:18px;border-radius:100em;border-width:5px;border-style:solid;top:-10px}.raygun .wheel:nth-child(1){left:-13px}.raygun .wheel:nth-child(2){left:102px}.raygun .wheel .hub{width:7px;height:7px;border-radius:100em;border-width:0;border-style:solid}.raygun .wheel .spokes .spoke{width:18px;height:2px;top:50%;left:50%}.raygun .wheel .spokes .spoke:nth-child(1){transform:translate(-50%, -50%) rotate(0deg)}.raygun .wheel .spokes .spoke:nth-child(2){transform:translate(-50%, -50%) rotate(120deg)}.raygun .wheel .spokes .spoke:nth-child(3){transform:translate(-50%, -50%) rotate(240deg)}.cannon{top:170px;left:890px}.cannon .trajectory{width:1100px;height:1100px;border-radius:100em;border-width:0;border-style:solid;top:-150px;left:-850px}.cannon .trajectory .ball{width:22px;height:22px;border-radius:100em;border-width:0;border-style:solid;display:none;top:96px;right:214px;opacity:0}.cannon .muzzle{width:120px;height:22px;border-radius:50em 100em 100em 50em/100em;border-width:1px;border-style:solid;transform:rotate(10deg);transform-origin:93px 8px}.cannon .muzzle .cascabel{width:7px;height:7px;border-radius:100em;border-width:1px;border-style:solid;top:8px;left:118px}.cannon .wheel{width:32px;height:32px;border-radius:100em;border-width:9px;border-style:solid;top:-12px;left:65px}.cannon .wheel .spokes .spoke{width:32px;height:1px;top:50%;left:50%}.cannon .wheel .spokes .spoke:nth-child(1){transform:translate(-50%, -50%) rotate(0deg)}.cannon .wheel .spokes .spoke:nth-child(2){transform:translate(-50%, -50%) rotate(40deg)}.cannon .wheel .spokes .spoke:nth-child(3){transform:translate(-50%, -50%) rotate(80deg)}.cannon .wheel .spokes .spoke:nth-child(4){transform:translate(-50%, -50%) rotate(120deg)}.cannon .wheel .spokes .spoke:nth-child(5){transform:translate(-50%, -50%) rotate(160deg)}.cannon .wheel .spokes .spoke:nth-child(6){transform:translate(-50%, -50%) rotate(200deg)}.cannon .wheel .spokes .spoke:nth-child(7){transform:translate(-50%, -50%) rotate(240deg)}.cannon .wheel .spokes .spoke:nth-child(8){transform:translate(-50%, -50%) rotate(280deg)}.cannon .wheel .spokes .spoke:nth-child(9){transform:translate(-50%, -50%) rotate(320deg)}.main[data-anim-key="animals-init"] .animal-cat,.main[data-anim-key="animals-init"] .raygun{transform:translate3d(-500px, 0, 0)}.main[data-anim-key="animals-init"] .animal-dog,.main[data-anim-key="animals-init"] .cannon{transform:translate3d(500px, 0, 0)}.main [data-anim-key="animals-meet"].animal,.main [data-anim-key="animals-meet"].weapon{transform:translate3d(0, 0, 0);transition:all 4s linear}.main [data-anim-key="animals-meet"].raygun .wheel{animation:moveRaygunTire 2s linear 2}@keyframes moveRaygunTire{from{transform:translate(0,0) rotate(0deg)}to{transform:translate(0,0) rotate(360deg)}}.main [data-anim-key="animals-meet"].cannon .wheel{animation:moveCannonTire 4s linear}@keyframes moveCannonTire{from{transform:translate(0,0) rotate(0deg)}to{transform:translate(0,0) rotate(-360deg)}}.main [data-anim-key="animals-meet"] .cat,.main [data-anim-key="animals-meet"] .dog{animation:walk 0.1s linear 40}@keyframes walk{from{transform:translate3d(0, 4px, 0)}to{transform:translate3d(0, 0, 0)}}.main [data-anim-key*="animals-talk"]:before{position:absolute;color:#fff;font-size:14px;font-family:sans-serif;text-transform:uppercase;letter-spacing:0.08em}.main [data-anim-key*="animals-talk"].animal-cat:before{content:'We hate you';right:180px;top:12px}.main [data-anim-key*="animals-talk"].animal-dog:before{content:'We hate you more';top:35px;left:190px}.main [data-anim-key="animals-talk-in"]:before{animation:popGreeting 0.5s ease-in 1;animation-fill-mode:forwards;opacity:0}@keyframes popGreeting{from{opacity:0;transform:translate3d(0, 4px, 0)}to{opacity:1;transform:translate3d(0, 0, 0)}}@keyframes closeGreeting{from{opacity:1;transform:translate3d(0, 0, 0)}to{opacity:0;transform:translate3d(0, 4px, 0)}}.main [data-anim-key="animals-talk-in"].animal-dog:before{animation-delay:2s}.main [data-anim-key="animals-talk-out"]:before{animation:outGreeting 0.5s ease-out 1;animation-fill-mode:forwards;opacity:1}@keyframes outGreeting{from{opacity:1}to{opacity:0;transform:translate3d(0, -4px, 0)}}.main[data-anim-key*="cannon-engage"] .muzzle{transform:translate(0,0) rotate(40deg)}.main[data-anim-key="cannon-engage-aim"] .muzzle{transition-duration:1.8s}.main[data-anim-key="cannon-engage-shoot"] .muzzle{animation:muzzleRecoil 0.8s ease-in}@keyframes muzzleRecoil{from{transform:translate(7px, 7px) rotate(40deg)}to{transform:translate(0,0) rotate(40deg)}}.main[data-anim-key="cannon-engage-shoot"] .trajectory{transform:translate(0,0) rotate(-80deg);transition-duration:1.15s;transition-timing-function:linear}.main[data-anim-key="cannon-engage-shoot"] .ball{display:block;opacity:1}.main[data-anim-key="cannon-engage-hit"] .ball{display:none}.main[data-anim-key="cannon-engage-hit"] .animal .cat{animation:catsHit 0.1s infinite}@keyframes catsHit{from{transform:translate3d(0, -3px, 0)}to{transform:translate3d(0, 3px, 0)}}.main[data-anim-key="weapon-disengage"],.main[data-anim-key="weapon-disengage"] *{transition:all 3s}.main[data-anim-key="raygun-engage-charge"] .charger{width:16px;height:200px;transform:translate(56px, -85px) rotate(-45deg);transition:opacity .3s}.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(1){top:20px;opacity:1;transition-delay:0s}.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(2){top:36px;opacity:1;transition-delay:.3s}.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(3){top:52px;opacity:1;transition-delay:.6s}.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(4){top:68px;opacity:1;transition-delay:.9s}.main[data-anim-key*="raygun-engage"] .ray-bit{height:3px}.main[data-anim-key*="raygun-engage"] .ray-2{transform:scaleY(-1) rotate(-5deg)}.main[data-anim-key*="raygun-engage"] .ray-wrap-1{transform:rotate(0deg)}.main[data-anim-key*="raygun-engage"] .ray-wrap-2{transform:rotate(1deg)}.main[data-anim-key*="raygun-engage"] .ray-wrap-3{transform:rotate(-1deg)}.main[data-anim-key="raygun-engage-shoot"] .ray-bit{opacity:1}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(1){transition-delay:0s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(2){transition-delay:.05s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(3){transition-delay:.1s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(4){transition-delay:.15s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(5){transition-delay:.2s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(6){transition-delay:.25s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(7){transition-delay:.3s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(8){transition-delay:.35s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(9){transition-delay:.4s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(10){transition-delay:.45s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(11){transition-delay:.5s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(12){transition-delay:.55s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(13){transition-delay:.6s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(14){transition-delay:.65s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(15){transition-delay:.7s}.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(16){transition-delay:.75s}.main[data-anim-key="raygun-engage-hit"] .ray-bit{opacity:1}.main[data-anim-key="raygun-engage-hit"] .animal .dog{animation:lasered 0.1s linear infinite}@keyframes lasered{from{transform:skew(20deg)}to{transform:skew(-20deg)}}.score{opacity:0;z-index:1}[data-winner]{opacity:1;transition:opacity 2s ease}[data-winner]:before,[data-winner]:after,[data-winner] .play{text-align:center;font-family:sans-serif;text-transform:uppercase;color:#fff;width:100%;display:block}[data-winner]:before{content:attr(data-winner) "s win!";font-size:45px;letter-spacing:0.02em;font-weight:bold;margin:0 0 4px}[data-winner]:after{content:"maybe the " attr(data-loser) "s will get'em next time";font-size:12px;letter-spacing:0.1em}[data-winner] .play{transform:translate3d(0, 30px, 0);transition:all 0s}[data-winner] .play:before{content:'try again?';border-radius:4px;border-width:1px;border-style:solid;border-color:#fff;font-size:12px;padding:5px}[data-winner] .play:hover{cursor:pointer}
+/* line 216, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.main, .main * {
+  position: absolute;
+}
+
+/* line 220, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.main, .raygun .wheel .hub, .raygun .wheel .spokes, .cannon .wheel .spokes, .score {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(1) {
+  transform: translate(360px, 40px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(2) {
+  transform: translate(550px, 10px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(3) {
+  transform: translate(670px, 340px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(4) {
+  transform: translate(316px, 294px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(5) {
+  transform: translate(470px, 210px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(6) {
+  transform: translate(780px, 200px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(7) {
+  transform: translate(460px, 330px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(8) {
+  transform: translate(910px, 80px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(9) {
+  transform: translate(600px, 40px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.grass:nth-child(10) {
+  transform: translate(600px, 40px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.blade-wrap:nth-child(1) {
+  transform: translate(10px, 20px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.blade-wrap:nth-child(2) {
+  transform: translate(20px, 30px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.blade-wrap:nth-child(3) {
+  transform: translate(30px, 20px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud:nth-child(1) {
+  transform: translate(130px, 70px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud:nth-child(2) {
+  transform: translate(980px, 50px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud:nth-child(3) {
+  transform: translate(900px, 170px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(1) {
+  transform: translate(230px, 50px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(2) {
+  transform: translate(200px, -12px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(3) {
+  transform: translate(182px, 58pxx);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(4) {
+  transform: translate(295px, 24px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(5) {
+  transform: translate(140px, 120px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(6) {
+  transform: translate(210px, 200px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(7) {
+  transform: translate(120px, 200px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(8) {
+  transform: translate(66px, 180px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(9) {
+  transform: translate(50px, 260px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(10) {
+  transform: translate(180px, 270px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(11) {
+  transform: translate(270px, 110px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(12) {
+  transform: translate(120px, 310px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(13) {
+  transform: translate(58px, 24px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(14) {
+  transform: translate(71px, 100px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(15) {
+  transform: translate(220px, 330px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(16) {
+  transform: translate(40px, 310px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(17) {
+  transform: translate(190px, 133px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(18) {
+  transform: translate(168px, 360px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(19) {
+  transform: translate(110px, 30px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-cat:nth-child(20) {
+  transform: translate(290px, 210px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(1) {
+  transform: translate(-190px, -10px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(2) {
+  transform: translate(-130px, 10px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(3) {
+  transform: translate(-180px, 80px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(4) {
+  transform: translate(-96px, 104px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(5) {
+  transform: translate(-40px, 170px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(6) {
+  transform: translate(-90px, 350px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(7) {
+  transform: translate(-110px, 170px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(8) {
+  transform: translate(-150px, 210px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(9) {
+  transform: translate(-170px, 280px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(10) {
+  transform: translate(-100px, 270px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(11) {
+  transform: translate(-22px, 230px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(12) {
+  transform: translate(-210px, 220px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(13) {
+  transform: translate(-16px, 24px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(14) {
+  transform: translate(-30px, 100px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(15) {
+  transform: translate(-237px, 40px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(16) {
+  transform: translate(-15px, 310px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(17) {
+  transform: translate(-180px, 149px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(18) {
+  transform: translate(-150px, 360px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(19) {
+  transform: translate(-91px, 30px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.wrap-dog:nth-child(20) {
+  transform: translate(-230px, 320px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-1 .fluff:nth-child(1) {
+  width: 200px;
+  height: 104px;
+  transform: translate(20px, 10px);
+  opacity: 1;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-1 .fluff:nth-child(2) {
+  width: 180px;
+  height: 30px;
+  transform: translate(10px, 0);
+  opacity: 0.2;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-1 .fluff:nth-child(3) {
+  width: 50px;
+  height: 60px;
+  transform: translate(180px, 60px);
+  opacity: 0.2;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-1 .fluff:nth-child(4) {
+  width: 225px;
+  height: 90px;
+  transform: translate(0, 10px);
+  opacity: 0.1;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-1 .fluff:nth-child(5) {
+  width: 200px;
+  height: 65px;
+  transform: translate(13px, 60px);
+  opacity: 1;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-2 .fluff:nth-child(1) {
+  width: 90px;
+  height: 64px;
+  transform: translate(20px, 10px);
+  opacity: 0.9;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-2 .fluff:nth-child(2) {
+  width: 110px;
+  height: 60px;
+  transform: translate(10px, 0);
+  opacity: 0.1;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-2 .fluff:nth-child(3) {
+  width: 40px;
+  height: 60px;
+  transform: translate(85px, 23px);
+  opacity: 0.9;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-2 .fluff:nth-child(4) {
+  width: 105px;
+  height: 70px;
+  transform: translate(30px, 0);
+  opacity: 0.2;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-2 .fluff:nth-child(5) {
+  width: 103px;
+  height: 40px;
+  transform: translate(26px, 50px);
+  opacity: 0.2;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-3 .fluff:nth-child(1) {
+  width: 50px;
+  height: 44px;
+  transform: translate(20px, 10px);
+  opacity: 0.7;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-3 .fluff:nth-child(2) {
+  width: 35px;
+  height: 30px;
+  transform: translate(10px, 0);
+  opacity: 0.1;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-3 .fluff:nth-child(3) {
+  width: 30px;
+  height: 55px;
+  transform: translate(47px, 5px);
+  opacity: 0.1;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-3 .fluff:nth-child(4) {
+  width: 65px;
+  height: 70px;
+  transform: translate(25px, 0);
+  opacity: 0.1;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cloud-3 .fluff:nth-child(5) {
+  width: 20px;
+  height: 35px;
+  transform: translate(13px, 28px);
+  opacity: 0.3;
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.whiskers .whisker:nth-child(1) {
+  width: 5px;
+  top: 12px;
+  left: -8px;
+  transform: rotate(-60deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.whiskers .whisker:nth-child(2) {
+  width: 8px;
+  top: 10px;
+  left: -12px;
+  transform: rotate(-20deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.whiskers .whisker:nth-child(3) {
+  width: 6px;
+  top: 7px;
+  left: -11px;
+  transform: rotate(5deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cat .tail-section:nth-child(1) {
+  border-width: 1px 0;
+  border-radius: 0;
+  transform: translate(-6px, -13px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cat .tail-section:nth-child(2) {
+  border-width: 0 0 1px 1px;
+  border-radius: 0 0 0 4px;
+  transform: translate(-13px, -12px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cat .tail-section:nth-child(3) {
+  border-width: 0 1px;
+  border-radius: 0;
+  transform: translate(-13px, -18px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cat .tail-section:nth-child(4) {
+  border-width: 1px 1px 0 0;
+  border-radius: 0 4px 0 0;
+  transform: translate(-12px, -25px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cat .tail-section:nth-child(5) {
+  border-width: 1px 0 1px 1px;
+  border-radius: 4px 0 0 4px;
+  transform: translate(-19px, -25px);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(1) {
+  width: 20px;
+  top: 0px;
+  left: 24px;
+  transform: rotate(5deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(2) {
+  width: 10px;
+  top: 0px;
+  left: 44px;
+  transform: rotate(-15deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(3) {
+  width: 10px;
+  top: 2px;
+  left: 51px;
+  transform: rotate(65deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(4) {
+  width: 60px;
+  top: 3px;
+  left: 57px;
+  transform: rotate(-5deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(5) {
+  width: 10px;
+  top: 2px;
+  left: 114px;
+  transform: rotate(15deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(6) {
+  width: 10px;
+  top: 1px;
+  left: 122px;
+  transform: rotate(-25deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(7) {
+  width: 120px;
+  top: 4px;
+  left: 130px;
+  transform: rotate(5deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(8) {
+  width: 35px;
+  top: 2px;
+  left: 247px;
+  transform: rotate(-25deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(9) {
+  width: 30px;
+  top: -4px;
+  left: 280px;
+  transform: rotate(5deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(10) {
+  width: 10px;
+  top: -5px;
+  left: 309px;
+  transform: rotate(-25deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(11) {
+  width: 50px;
+  top: 1px;
+  left: 316px;
+  transform: rotate(18deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(12) {
+  width: 120px;
+  top: 14px;
+  left: 364px;
+  transform: rotate(5deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(13) {
+  width: 21px;
+  top: 12px;
+  left: 480px;
+  transform: rotate(-45deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(14) {
+  width: 100px;
+  top: 17px;
+  left: 496px;
+  transform: rotate(15deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(15) {
+  width: 20px;
+  top: 26px;
+  left: 592px;
+  transform: rotate(-25deg);
+}
+
+/* line 106, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.ray .ray-bit:nth-child(16) {
+  width: 38px;
+  top: 20px;
+  left: 609px;
+  transform: rotate(-25deg);
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .sky {
+  background-color: #2bb2f0;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .sky {
+  background-color: #4ec7ff;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .sky {
+  background-color: #fff;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .sky {
+  background-color: #d7d7d7;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .sky {
+  background-color: #000;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .sky {
+  background-color: #57806c;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .sky {
+  background-color: #960000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .sky {
+  background-color: #840000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .sky {
+  background-color: #850000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .fluff {
+  background-color: #fff;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .fluff {
+  background-color: white;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .fluff {
+  background-color: #000;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .fluff {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .fluff {
+  background-color: #9caf9c;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .fluff {
+  background-color: #a5d7ba;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .fluff {
+  background-color: #e47600;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .fluff {
+  background-color: #ab3400;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .fluff {
+  background-color: #ac2a00;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .ground {
+  background-color: #6b9e63;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .ground {
+  background-color: #80bc77;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .ground {
+  background-color: #f1ffea;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .ground {
+  background-color: #c9d7c2;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .ground {
+  background-color: #404040;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .ground {
+  background-color: #77a08c;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .ground {
+  background-color: #3f1800;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .ground {
+  background-color: #580500;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .ground {
+  background-color: #590700;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .eyebrow {
+  background-color: #000000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .eyebrow {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .eyebrow {
+  background-color: #ff9700;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .eyebrow {
+  background-color: #d76f00;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .eyebrow {
+  background-color: #fff;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .eyebrow {
+  background-color: #d7ffeb;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .eyebrow {
+  background-color: #ffffff;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .eyebrow {
+  background-color: #b87878;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .eyebrow {
+  background-color: #f04949;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .eye {
+  background-color: #ffffff;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .eye {
+  background-color: white;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .eye {
+  background-color: #ffe4e4;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .eye {
+  background-color: #d7bcbc;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .eye {
+  background-color: #fff;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .eye {
+  background-color: #d7ffeb;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .eye {
+  background-color: #000000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .eye {
+  background-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .eye {
+  background-color: #3a0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .pupil {
+  background-color: #000000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .pupil {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .pupil {
+  background-color: #de0000;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .pupil {
+  background-color: #b60000;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .pupil {
+  background-color: #000;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .pupil {
+  background-color: #57806c;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .pupil {
+  background-color: #ffffff;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .pupil {
+  background-color: #b87878;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .pupil {
+  background-color: #f04949;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .nose {
+  background-color: #000000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .nose {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .nose {
+  background-color: #e6a800;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .nose {
+  background-color: #be8000;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .nose {
+  background-color: #fff;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .nose {
+  background-color: #d7ffeb;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .nose {
+  background-color: #ffffff;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .nose {
+  background-color: #b87878;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .nose {
+  background-color: #f04949;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .whisker {
+  background-color: #000000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .whisker {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .whisker {
+  background-color: #e6a800;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .whisker {
+  background-color: #be8000;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .whisker {
+  background-color: #fff;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .whisker {
+  background-color: #d7ffeb;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .whisker {
+  background-color: #ffffff;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .whisker {
+  background-color: #b87878;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .whisker {
+  background-color: #f04949;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .wrap-cat .furr {
+  background-color: #ff8f00;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .wrap-cat .furr {
+  background-color: #ffa532;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .wrap-cat .furr {
+  background-color: #4a2202;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .wrap-cat .furr {
+  background-color: #220000;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .wrap-cat .furr {
+  background-color: #000;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .wrap-cat .furr {
+  background-color: #57806c;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .wrap-cat .furr {
+  background-color: #ffb05d;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .wrap-cat .furr {
+  background-color: #b85127;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .wrap-cat .furr {
+  background-color: #e82e00;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .wrap-cat .furr-2 {
+  background-color: #bb6a03;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .wrap-cat .furr-2 {
+  background-color: #da8416;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .wrap-cat .furr-2 {
+  background-color: red;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .wrap-cat .furr-2 {
+  background-color: #d70000;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .wrap-cat .furr-2 {
+  background-color: #fff;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .wrap-cat .furr-2 {
+  background-color: #d7ffeb;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .wrap-cat .furr-2 {
+  background-color: #ff6c00;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .wrap-cat .furr-2 {
+  background-color: #b82f00;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .wrap-cat .furr-2 {
+  background-color: #b92700;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .wrap-dog .furr {
+  background-color: #ac824a;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .wrap-dog .furr {
+  background-color: #ca9c5e;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .wrap-dog .furr {
+  background-color: #250d00;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .wrap-dog .furr {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .wrap-dog .furr {
+  background-color: #000;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .wrap-dog .furr {
+  background-color: #57806c;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .wrap-dog .furr {
+  background-color: #f86900;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .wrap-dog .furr {
+  background-color: #b52d00;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .wrap-dog .furr {
+  background-color: #b62600;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .wrap-dog .furr-2 {
+  background-color: #63431a;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .wrap-dog .furr-2 {
+  background-color: #805d2f;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .wrap-dog .furr-2 {
+  background-color: #984c00;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .wrap-dog .furr-2 {
+  background-color: #702400;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .wrap-dog .furr-2 {
+  background-color: #115000;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .wrap-dog .furr-2 {
+  background-color: #60a86c;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .wrap-dog .furr-2 {
+  background-color: #52004b;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .wrap-dog .furr-2 {
+  background-color: #62001e;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .wrap-dog .furr-2 {
+  background-color: #630016;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .shell {
+  background-color: #555555;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .shell {
+  background-color: #746969;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .shell {
+  background-color: #141414;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .shell {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .shell {
+  background-color: dimgray;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .shell {
+  background-color: #8cb4a0;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .shell {
+  background-color: #555555;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .shell {
+  background-color: #632323;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .shell {
+  background-color: #8f0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .laser {
+  background-color: #000000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .laser {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .laser {
+  background-color: black;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .laser {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .laser {
+  background-color: #141414;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .laser {
+  background-color: #618a76;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .laser {
+  background-color: #000000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .laser {
+  background-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .laser {
+  background-color: #3a0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .rim {
+  background-color: #000000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .rim {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .rim {
+  background-color: black;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .rim {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .rim {
+  background-color: #141414;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .rim {
+  background-color: #618a76;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .rim {
+  background-color: #000000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .rim {
+  background-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .rim {
+  background-color: #3a0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .stand {
+  background-color: #363636;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .stand {
+  background-color: #534b4b;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .stand {
+  background-color: black;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .stand {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .stand {
+  background-color: #4a4a4a;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .stand {
+  background-color: #7ca591;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .stand {
+  background-color: #363636;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .stand {
+  background-color: #541414;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .stand {
+  background-color: #700000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .base {
+  background-color: #e1e1e1;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .base {
+  background-color: #fafafa;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .base {
+  background-color: #9a535f;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .base {
+  background-color: #722b37;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .base {
+  background-color: #efa8b4;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .base {
+  background-color: #cfd4c6;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .base {
+  background-color: #db94a0;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .base {
+  background-color: #a64349;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .base {
+  background-color: #e20f17;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .charger {
+  background-color: #0ff;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .charger {
+  background-color: #32ffff;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .charger {
+  background-color: #9a535f;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .charger {
+  background-color: #722b37;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .charger {
+  background-color: #efa8b4;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .charger {
+  background-color: #cfd4c6;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .charger {
+  background-color: #db94a0;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .charger {
+  background-color: #a64349;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .charger {
+  background-color: #e20f17;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .ray-bit {
+  background-color: #000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .ray-bit {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .ray-bit {
+  background-color: #000;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .ray-bit {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .ray-bit {
+  background-color: #fff;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .ray-bit {
+  background-color: #d7ffeb;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .ray-bit {
+  background-color: #000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .ray-bit {
+  background-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .ray-bit {
+  background-color: #3a0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .cannon .barrel {
+  background-color: #959595;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .cannon .barrel {
+  background-color: #b2aaaa;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .cannon .barrel {
+  background-color: #545454;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .cannon .barrel {
+  background-color: #2c2c2c;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .cannon .barrel {
+  background-color: darkgray;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .cannon .barrel {
+  background-color: #acd4c0;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .cannon .barrel {
+  background-color: #959595;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .cannon .barrel {
+  background-color: #834343;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .cannon .barrel {
+  background-color: #bc1313;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .cannon .ball {
+  background-color: #000000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .cannon .ball {
+  background-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .cannon .ball {
+  background-color: black;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .cannon .ball {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .cannon .ball {
+  background-color: #141414;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .cannon .ball {
+  background-color: #618a76;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .cannon .ball {
+  background-color: #000000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .cannon .ball {
+  background-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .cannon .ball {
+  background-color: #3a0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .cannon .wheel {
+  background-color: #ddd;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .cannon .wheel {
+  background-color: #f6f6f6;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .cannon .wheel {
+  background-color: #9c9c9c;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .cannon .wheel {
+  background-color: #747474;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .cannon .wheel {
+  background-color: #f1f1f1;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .cannon .wheel {
+  background-color: #d0f8e4;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .cannon .wheel {
+  background-color: #ddd;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .cannon .wheel {
+  background-color: #a76767;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .cannon .wheel {
+  background-color: #e23535;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .cannon .spoke {
+  background-color: #111111;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .cannon .spoke {
+  background-color: #2c2828;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .cannon .spoke {
+  background-color: black;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .cannon .spoke {
+  background-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .cannon .spoke {
+  background-color: #141414;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .cannon .spoke {
+  background-color: #618a76;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .cannon .spoke {
+  background-color: #000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .cannon .spoke {
+  background-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .cannon .spoke {
+  background-color: #3a0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .wrap-cat .stroke {
+  border-color: #000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .wrap-cat .stroke {
+  border-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .wrap-cat .stroke {
+  border-color: #ffb34f;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .wrap-cat .stroke {
+  border-color: #d78b27;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .wrap-cat .stroke {
+  border-color: #e4e4e4;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .wrap-cat .stroke {
+  border-color: #c9f2de;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .wrap-cat .stroke {
+  border-color: #ff4300;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .wrap-cat .stroke {
+  border-color: #b81a00;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .wrap-cat .stroke {
+  border-color: #b91800;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .wrap-dog .stroke {
+  border-color: #000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .wrap-dog .stroke {
+  border-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .wrap-dog .stroke {
+  border-color: #008a46;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .wrap-dog .stroke {
+  border-color: #00621e;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .wrap-dog .stroke {
+  border-color: #aeffd7;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .wrap-dog .stroke {
+  border-color: #aeffd7;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .wrap-dog .stroke {
+  border-color: #ff003e;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .wrap-dog .stroke {
+  border-color: #b80018;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .wrap-dog .stroke {
+  border-color: #b90016;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .blade {
+  border-color: #4d8145;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .blade {
+  border-color: #61a058;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .blade {
+  border-color: #95ff84;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .blade {
+  border-color: #6dd75c;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .blade {
+  border-color: #696969;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .blade {
+  border-color: #8cb4a0;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .blade {
+  border-color: #850000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .blade {
+  border-color: #7b0000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .blade {
+  border-color: #7c0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .halo {
+  border-color: yellow;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .halo {
+  border-color: #ffff32;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .halo {
+  border-color: yellow;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .halo {
+  border-color: #d7d700;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .halo {
+  border-color: yellow;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .halo {
+  border-color: #d7ff6c;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .halo {
+  border-color: yellow;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .halo {
+  border-color: #b87800;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .halo {
+  border-color: #b95d00;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .cannon .wheel {
+  border-color: #362f2d;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .cannon .wheel {
+  border-color: #534642;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .cannon .wheel {
+  border-color: black;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .cannon .wheel {
+  border-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .cannon .wheel {
+  border-color: #141414;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .cannon .wheel {
+  border-color: #618a76;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .cannon .wheel {
+  border-color: #000000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .cannon .wheel {
+  border-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .cannon .wheel {
+  border-color: #3a0000;
+}
+
+/* line 31, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.init .raygun .wheel {
+  border-color: #000;
+}
+
+/* line 35, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.light .raygun .wheel {
+  border-color: #1a1818;
+}
+
+/* line 39, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-1 .raygun .wheel {
+  border-color: black;
+}
+
+/* line 43, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-2 .raygun .wheel {
+  border-color: black;
+}
+
+/* line 47, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-1 .raygun .wheel {
+  border-color: #141414;
+}
+
+/* line 51, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.laser-hit-2 .raygun .wheel {
+  border-color: #618a76;
+}
+
+/* line 55, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-1 .raygun .wheel {
+  border-color: #000;
+}
+
+/* line 59, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-2 .raygun .wheel {
+  border-color: #390000;
+}
+
+/* line 63, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.expl-3 .raygun .wheel {
+  border-color: #3a0000;
+}
+
+/* line 1, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+body {
+  background-color: #111;
+}
+
+/* line 5, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main {
+  width: 1300px;
+  height: 700px;
+  overflow: hidden;
+}
+
+/* line 15, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.sky {
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+/* line 20, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cloud {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 23, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cloud .fluff {
+  border-radius: 8px;
+  border-width: 0;
+  border-style: solid;
+}
+
+/* line 28, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.ground {
+  width: 100%;
+  height: 60%;
+  bottom: 0;
+}
+
+/* line 33, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.grass {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 37, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.blade {
+  width: 10px;
+  height: 10px;
+  border-radius: 0;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  transform: rotate(-45deg);
+}
+
+/* line 42, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+/* line 48, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .halo {
+  width: 20px;
+  height: 20px;
+  border-radius: 100em;
+  border-width: 5px;
+  border-style: solid;
+  transform: translate(7px, -33px) perspective(500px) rotateX(75deg);
+  z-index: 1;
+  opacity: 0;
+}
+
+/* line 56, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dead {
+  opacity: 0;
+  top: -100px;
+}
+
+/* line 60, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dead .halo {
+  opacity: 1;
+}
+
+/* line 65, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap {
+  top: 0;
+}
+
+/* line 67, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap, .animal-wrap .bod, .animal-wrap .face {
+  width: 42px;
+  height: 47px;
+}
+
+/* line 71, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .bod {
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* line 75, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .leg {
+  width: 10px;
+  height: 6px;
+  border-radius: 0 0 100em 100em;
+  border-width: 0 1px 1px;
+  border-style: solid;
+  bottom: -7px;
+}
+
+/* line 80, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .leg-left {
+  left: 7px;
+}
+
+/* line 84, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .leg-right {
+  left: 23px;
+}
+
+/* line 89, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .face {
+  top: 5px;
+  left: 2px;
+}
+
+/* line 93, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .face .eyebrow {
+  width: 10px;
+  height: 2px;
+}
+
+/* line 97, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .face .eye {
+  width: 12px;
+  height: 12px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+  top: 3px;
+}
+
+/* line 103, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .face .pupil {
+  width: 3px;
+  height: 3px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+  transform: translate3d(-50%, -50%, 0);
+  top: 50%;
+}
+
+/* line 111, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal-wrap .arm {
+  width: 9px;
+  height: 11px;
+  border-radius: 0 0 100em 100em;
+  border-width: 0;
+  border-style: solid;
+  top: 30px;
+  opacity: 0.4;
+}
+
+/* line 120, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .wrap-cat {
+  left: 0;
+}
+
+/* line 124, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .wrap-dog {
+  right: 0;
+}
+
+/* line 131, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .ear {
+  width: 14px;
+  height: 14px;
+  border-radius: 0;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  top: -9px;
+  transform: rotate(-45deg) skew(-20deg, -20deg);
+}
+
+/* line 137, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .ear-left {
+  right: 3px;
+}
+
+/* line 141, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .ear-right {
+  right: 12px;
+}
+
+/* line 146, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .nose {
+  width: 5px;
+  height: 5px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+  right: 0;
+  top: 20px;
+}
+
+/* line 153, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .arm {
+  left: 10px;
+}
+
+/* line 157, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .eyebrow {
+  transform: rotate(20deg);
+  right: 4px;
+}
+
+/* line 162, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .eye {
+  right: 4px;
+}
+
+/* line 166, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .pupil {
+  right: 1px;
+}
+
+/* line 170, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .whiskers {
+  top: 14px;
+  right: 0;
+}
+
+/* line 174, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .whiskers .whisker {
+  height: 1px;
+}
+
+/* line 179, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .tail {
+  bottom: 0;
+  left: 0;
+}
+
+/* line 183, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .cat .tail-section {
+  width: 6px;
+  height: 6px;
+  border-style: solid;
+}
+
+/* line 193, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .ear {
+  width: 14px;
+  height: 21px;
+  border-radius: 0 0 4px 4px;
+  border-width: 0;
+  border-style: solid;
+  top: 0;
+  right: 10px;
+}
+
+/* line 200, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .arm {
+  right: 13px;
+}
+
+/* line 204, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .eyebrow {
+  transform: rotate(-20deg);
+}
+
+/* line 208, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .eye {
+  left: 1px;
+}
+
+/* line 212, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .pupil {
+  left: 4px;
+}
+
+/* line 216, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .snout {
+  width: 7px;
+  height: 18px;
+  border-radius: 4px 0 0 4px;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  top: 15px;
+  left: -10px;
+}
+
+/* line 223, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .nose {
+  width: 8px;
+  height: 6px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+  top: -2px;
+  left: -1px;
+}
+
+/* line 230, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.animal .dog .tail {
+  width: 4px;
+  height: 4px;
+  border-radius: 0 4px 4px 0;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  bottom: 5px;
+  right: -5px;
+}
+
+/* line 240, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun {
+  top: 95px;
+  left: 390px;
+}
+
+/* line 246, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .shell {
+  width: 40px;
+  height: 40px;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  border-width: 1px;
+  border-style: solid;
+  transform: rotate(-135deg);
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* line 254, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .charger {
+  opacity: 0;
+}
+
+/* line 258, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .barrel {
+  width: 23px;
+  height: 2px;
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+  top: 20px;
+  left: 42px;
+}
+
+/* line 264, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .barrel .ring {
+  border-width: 0;
+  border-style: solid;
+  width: 2px;
+  left: -3px;
+}
+
+/* line 271, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .barrel .ring:nth-child(1) {
+  height: 11px;
+  transform: translate3d(20px, -5px, 0);
+}
+
+/* line 271, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .barrel .ring:nth-child(2) {
+  height: 14px;
+  transform: translate3d(15px, -6px, 0);
+}
+
+/* line 271, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .barrel .ring:nth-child(3) {
+  height: 17px;
+  transform: translate3d(10px, -7px, 0);
+}
+
+/* line 271, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .barrel .ring:nth-child(4) {
+  height: 20px;
+  transform: translate3d(5px, -8px, 0);
+}
+
+/* line 279, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .barrel .ray-bit {
+  transition: opacity 0s;
+  opacity: 0;
+}
+
+/* line 286, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .stand {
+  width: 12px;
+  height: 20px;
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+  top: 30px;
+  left: 15px;
+}
+
+/* line 293, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .base {
+  width: 120px;
+  height: 8px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+  top: 51px;
+  left: -35px;
+}
+
+/* line 300, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .wheel {
+  width: 18px;
+  height: 18px;
+  border-radius: 100em;
+  border-width: 5px;
+  border-style: solid;
+  top: -10px;
+}
+
+/* line 306, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .wheel:nth-child(1) {
+  left: -13px;
+}
+
+/* line 310, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .wheel:nth-child(2) {
+  left: 102px;
+}
+
+/* line 314, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .wheel .hub {
+  width: 7px;
+  height: 7px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+}
+
+/* line 323, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.raygun .wheel .spokes .spoke {
+  width: 18px;
+  height: 2px;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.raygun .wheel .spokes .spoke:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.raygun .wheel .spokes .spoke:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(120deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.raygun .wheel .spokes .spoke:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(240deg);
+}
+
+/* line 331, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cannon {
+  top: 170px;
+  left: 890px;
+}
+
+/* line 335, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cannon .trajectory {
+  width: 1100px;
+  height: 1100px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+  top: -150px;
+  left: -850px;
+}
+
+/* line 341, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cannon .trajectory .ball {
+  width: 22px;
+  height: 22px;
+  border-radius: 100em;
+  border-width: 0;
+  border-style: solid;
+  display: none;
+  top: 96px;
+  right: 214px;
+  opacity: 0;
+}
+
+/* line 351, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cannon .muzzle {
+  width: 120px;
+  height: 22px;
+  border-radius: 50em 100em 100em 50em/100em;
+  border-width: 1px;
+  border-style: solid;
+  transform: rotate(10deg);
+  transform-origin: 93px 8px;
+}
+
+/* line 357, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cannon .muzzle .cascabel {
+  width: 7px;
+  height: 7px;
+  border-radius: 100em;
+  border-width: 1px;
+  border-style: solid;
+  top: 8px;
+  left: 118px;
+}
+
+/* line 365, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cannon .wheel {
+  width: 32px;
+  height: 32px;
+  border-radius: 100em;
+  border-width: 9px;
+  border-style: solid;
+  top: -12px;
+  left: 65px;
+}
+
+/* line 375, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.cannon .wheel .spokes .spoke {
+  width: 32px;
+  height: 1px;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(40deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(80deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(4) {
+  transform: translate(-50%, -50%) rotate(120deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(5) {
+  transform: translate(-50%, -50%) rotate(160deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(6) {
+  transform: translate(-50%, -50%) rotate(200deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(7) {
+  transform: translate(-50%, -50%) rotate(240deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(8) {
+  transform: translate(-50%, -50%) rotate(280deg);
+}
+
+/* line 149, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_mixins.scss */
+.cannon .wheel .spokes .spoke:nth-child(9) {
+  transform: translate(-50%, -50%) rotate(320deg);
+}
+
+/* line 385, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="animals-init"] .animal-cat, .main[data-anim-key="animals-init"] .raygun {
+  transform: translate3d(-500px, 0, 0);
+}
+
+/* line 388, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="animals-init"] .animal-dog, .main[data-anim-key="animals-init"] .cannon {
+  transform: translate3d(500px, 0, 0);
+}
+
+/* line 397, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key="animals-meet"].animal, .main [data-anim-key="animals-meet"].weapon {
+  transform: translate3d(0, 0, 0);
+  transition: all 4s linear;
+}
+
+/* line 402, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key="animals-meet"].raygun .wheel {
+  animation: moveRaygunTire 2s linear 2;
+}
+
+@keyframes moveRaygunTire {
+  from {
+    transform: translate(0,0) rotate(0deg);
+  }
+  to {
+    transform: translate(0,0) rotate(360deg);
+  }
+}
+
+/* line 416, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key="animals-meet"].cannon .wheel {
+  animation: moveCannonTire 4s linear;
+}
+
+@keyframes moveCannonTire {
+  from {
+    transform: translate(0,0) rotate(0deg);
+  }
+  to {
+    transform: translate(0,0) rotate(-360deg);
+  }
+}
+
+/* line 430, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key="animals-meet"] .cat, .main [data-anim-key="animals-meet"] .dog {
+  animation: walk 0.1s linear 40;
+}
+
+@keyframes walk {
+  from {
+    transform: translate3d(0, 4px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* line 445, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key*="animals-talk"]:before {
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* line 455, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key*="animals-talk"].animal-cat:before {
+  content: 'We hate you';
+  right: 180px;
+  top: 12px;
+}
+
+/* line 463, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key*="animals-talk"].animal-dog:before {
+  content: 'We hate you more';
+  top: 35px;
+  left: 190px;
+}
+
+/* line 473, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key="animals-talk-in"]:before {
+  animation: popGreeting 0.5s ease-in 1;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes popGreeting {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 4px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes closeGreeting {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 4px, 0);
+  }
+}
+
+/* line 502, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key="animals-talk-in"].animal-dog:before {
+  animation-delay: 2s;
+}
+
+/* line 510, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main [data-anim-key="animals-talk-out"]:before {
+  animation: outGreeting 0.5s ease-out 1;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes outGreeting {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+/* line 528, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key*="cannon-engage"] .muzzle {
+  transform: translate(0,0) rotate(40deg);
+}
+
+/* line 534, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="cannon-engage-aim"] .muzzle {
+  transition-duration: 1.8s;
+}
+
+/* line 541, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="cannon-engage-shoot"] .muzzle {
+  animation: muzzleRecoil 0.8s ease-in;
+}
+
+@keyframes muzzleRecoil {
+  from {
+    transform: translate(7px, 7px) rotate(40deg);
+  }
+  to {
+    transform: translate(0,0) rotate(40deg);
+  }
+}
+
+/* line 554, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="cannon-engage-shoot"] .trajectory {
+  transform: translate(0,0) rotate(-80deg);
+  transition-duration: 1.15s;
+  transition-timing-function: linear;
+}
+
+/* line 560, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="cannon-engage-shoot"] .ball {
+  display: block;
+  opacity: 1;
+}
+
+/* line 567, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="cannon-engage-hit"] .ball {
+  display: none;
+}
+
+/* line 571, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="cannon-engage-hit"] .animal .cat {
+  animation: catsHit 0.1s infinite;
+}
+
+@keyframes catsHit {
+  from {
+    transform: translate3d(0, -3px, 0);
+  }
+  to {
+    transform: translate3d(0, 3px, 0);
+  }
+}
+
+/* line 586, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="weapon-disengage"], .main[data-anim-key="weapon-disengage"] * {
+  transition: all 3s;
+}
+
+/* line 592, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-charge"] .charger {
+  width: 16px;
+  height: 200px;
+  transform: translate(56px, -85px) rotate(-45deg);
+  transition: opacity 0.3s;
+}
+
+/* line 600, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(1) {
+  top: 20px;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+/* line 600, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(2) {
+  top: 36px;
+  opacity: 1;
+  transition-delay: 0.3s;
+}
+
+/* line 600, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(3) {
+  top: 52px;
+  opacity: 1;
+  transition-delay: 0.6s;
+}
+
+/* line 600, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-charge"] .charger:nth-child(4) {
+  top: 68px;
+  opacity: 1;
+  transition-delay: 0.9s;
+}
+
+/* line 611, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key*="raygun-engage"] .ray-bit {
+  height: 3px;
+}
+
+/* line 615, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key*="raygun-engage"] .ray-2 {
+  transform: scaleY(-1) rotate(-5deg);
+}
+
+/* line 621, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key*="raygun-engage"] .ray-wrap-1 {
+  transform: rotate(0deg);
+}
+
+/* line 621, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key*="raygun-engage"] .ray-wrap-2 {
+  transform: rotate(1deg);
+}
+
+/* line 621, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key*="raygun-engage"] .ray-wrap-3 {
+  transform: rotate(-1deg);
+}
+
+/* line 631, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit {
+  opacity: 1;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(1) {
+  transition-delay: 0s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(2) {
+  transition-delay: 0.05s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(3) {
+  transition-delay: 0.1s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(4) {
+  transition-delay: 0.15s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(5) {
+  transition-delay: 0.2s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(6) {
+  transition-delay: 0.25s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(7) {
+  transition-delay: 0.3s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(8) {
+  transition-delay: 0.35s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(9) {
+  transition-delay: 0.4s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(10) {
+  transition-delay: 0.45s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(11) {
+  transition-delay: 0.5s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(12) {
+  transition-delay: 0.55s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(13) {
+  transition-delay: 0.6s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(14) {
+  transition-delay: 0.65s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(15) {
+  transition-delay: 0.7s;
+}
+
+/* line 635, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-shoot"] .ray-bit:nth-child(16) {
+  transition-delay: 0.75s;
+}
+
+/* line 645, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-hit"] .ray-bit {
+  opacity: 1;
+}
+
+/* line 650, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.main[data-anim-key="raygun-engage-hit"] .animal .dog {
+  animation: lasered 0.1s linear infinite;
+}
+
+@keyframes lasered {
+  from {
+    transform: skew(20deg);
+  }
+  to {
+    transform: skew(-20deg);
+  }
+}
+
+/* line 664, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+.score {
+  opacity: 0;
+  z-index: 1;
+}
+
+/* line 670, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+[data-winner] {
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+
+/* line 675, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+[data-winner]:before, [data-winner]:after, [data-winner] .play {
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+/* line 684, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+[data-winner]:before {
+  content: attr(data-winner) "s win!";
+  font-size: 45px;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  margin: 0 0 4px;
+}
+
+/* line 692, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+[data-winner]:after {
+  content: "maybe the " attr(data-loser) "s will get'em next time";
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+/* line 698, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+[data-winner] .play {
+  transform: translate3d(0, 30px, 0);
+  transition: all 0s;
+}
+
+/* line 702, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+[data-winner] .play:before {
+  content: 'try again?';
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  font-size: 12px;
+  padding: 5px;
+}
+
+/* line 710, /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/site/components/sass/_main.scss */
+[data-winner] .play:hover {
+  cursor: pointer;
+}

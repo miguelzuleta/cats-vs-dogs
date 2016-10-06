@@ -3,7 +3,23 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	concat = require('gulp-concat'),
 	connect = require('gulp-connect'),
+	gIF = require('gulp-if'),
 	uglify = require('gulp-uglify');
+
+var env = process.env.NODE_ENV || 'envDev',
+	dir,
+	cssOutput,
+	cssComments;
+
+if(env === 'envDev'){
+	dir = 'site/dev';
+	cssOutput = 'expanded';
+	cssComments = true;
+} else{
+	dir = 'site/prod';
+	cssOutput = 'compressed';
+	cssComments = false;
+}
 
 gulp.task('connect', function(){
 	connect.server({
@@ -18,17 +34,17 @@ gulp.task('haml', function(){
 		.pipe(haml({
 		  trace: true
 		}))
-		.pipe(gulp.dest('site/dev'))
+		.pipe(gulp.dest(dir))
 		.pipe(connect.reload());
 });
 
 gulp.task('sass', function(){
 	gulp.src('site/components/sass/styles.scss')
 		.pipe(sass({
-			outputStyle: 'compressed',
-			sourceComments: false
+			outputStyle: cssOutput,
+			sourceComments: cssComments
 		}).on('error', sass.logError))
-		.pipe(gulp.dest('site/dev'))
+		.pipe(gulp.dest(dir))
 });
 
 gulp.task('js', function(){
@@ -37,12 +53,12 @@ gulp.task('js', function(){
 		'site/components/js/battle.js'
 	])
 		.pipe(concat('js.js'))
-		.pipe(uglify())
-		.pipe(gulp.dest('site/dev'))
+		.pipe(gIF(env !== 'envDev', uglify()))
+		.pipe(gulp.dest(dir))
 });
 
 gulp.task('partials', function(){
-	gulp.src('site/dev/index.html')
+	gulp.src(dir + '/index.html')
 		.pipe(connect.reload());
 });
 
@@ -50,7 +66,7 @@ gulp.task('watch', function(){
 	gulp.watch('site/components/sass/*.scss', ['sass']);
 	gulp.watch('site/components/haml/*.haml', ['haml']);
 	gulp.watch('site/components/js/*.js', ['js']);
-	gulp.watch('site/dev/**/*.*', ['partials']);
+	gulp.watch(dir + '/**/*.*', ['partials']);
 });
 
 gulp.task('default', ['haml', 'sass', 'js', 'connect', 'watch']);
