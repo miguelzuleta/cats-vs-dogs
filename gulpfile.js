@@ -23,7 +23,7 @@ if(env === 'envDev'){
 
 gulp.task('connect', function(){
 	connect.server({
-		root: 'site/dev',
+		root: dir,
 		livereload: true
 	});
 });
