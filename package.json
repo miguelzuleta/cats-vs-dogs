@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
     "gulp-connect": "^5.0.0",
     "gulp-ruby-haml": "0.0.9",
     "gulp-sass": "^2.3.2"

@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
 	haml = require('gulp-ruby-haml'),
 	sass = require('gulp-sass'),
+	concat = require('gulp-concat'),
 	connect = require('gulp-connect');
 
 gulp.task('connect', function(){
@@ -29,15 +30,25 @@ gulp.task('sass', function(){
 		.pipe(gulp.dest('site/compiled'))
 });
 
+gulp.task('js', function(){
+	gulp.src([
+		'site/uncompiled/js/keyframes.js',
+		'site/uncompiled/js/battle.js'
+	])
+		.pipe(concat('js.js'))
+		.pipe(gulp.dest('site/compiled'))
+});
+
 gulp.task('partials', function(){
-	gulp.src('site/uncompiled/**/*.*')
+	gulp.src('site/compiled/index.html')
 		.pipe(connect.reload());
 });
 
 gulp.task('watch', function(){
 	gulp.watch('site/uncompiled/sass/*.scss', ['sass']);
 	gulp.watch('site/uncompiled/haml/*.haml', ['haml']);
-	gulp.watch('site/uncompiled/**/*.*', ['partials']);
+	gulp.watch('site/uncompiled/js/*.js', ['js']);
+	gulp.watch('site/compiled/**/*.*', ['partials']);
 });
 
-gulp.task('default', ['haml', 'sass', 'connect', 'watch']);
+gulp.task('default', ['haml', 'sass', 'js', 'connect', 'watch']);
