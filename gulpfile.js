@@ -37,7 +37,7 @@ gulp.task('js', function(){
 		'site/uncompiled/js/battle.js'
 	])
 		.pipe(concat('js.js'))
-		// .pipe(uglify())
+		.pipe(uglify())
 		.pipe(gulp.dest('site/compiled'))
 });
 
