@@ -33,7 +33,7 @@ gulp.task('sass', function(){
 
 gulp.task('js', function(){
 	gulp.src([
-		'site/Ï/js/keyframes.js',
+		'site/components/js/keyframes.js',
 		'site/components/js/battle.js'
 	])
 		.pipe(concat('js.js'))

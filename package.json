@@ -15,7 +15,6 @@
     "gulp-minify": "0.0.14",
     "gulp-ruby-haml": "0.0.9",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^2.0.0",
-    "gulp-uglifycss": "^1.0.6"
+    "gulp-uglify": "^2.0.0"
   }
 }
