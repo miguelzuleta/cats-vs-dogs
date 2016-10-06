@@ -114,7 +114,7 @@
           }
           @else if(type-of($thisValue) == 'string'){
             @if($thisProp == 'translate' or $thisProp == 'skew' or $thisProp == 'rotate'){
-              transform: #{$thisProp}unquote("(")#{$thisValue}unquote(")");
+              transform: #{$thisProp}#{unquote("(")}#{$thisValue}#{unquote(")")};
             }
             @else{
               #{$thisProp}: #{$thisValue};
