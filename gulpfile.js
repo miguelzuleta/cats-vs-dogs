@@ -2,7 +2,8 @@ var gulp = require('gulp'),
 	haml = require('gulp-ruby-haml'),
 	sass = require('gulp-sass'),
 	concat = require('gulp-concat'),
-	connect = require('gulp-connect');
+	connect = require('gulp-connect'),
+	uglify = require('gulp-uglify');
 
 gulp.task('connect', function(){
 	connect.server({
@@ -36,6 +37,7 @@ gulp.task('js', function(){
 		'site/uncompiled/js/battle.js'
 	])
 		.pipe(concat('js.js'))
+		// .pipe(uglify())
 		.pipe(gulp.dest('site/compiled'))
 });
 
