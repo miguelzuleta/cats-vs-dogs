@@ -35,7 +35,8 @@ gulp.task('connect', function(){
 gulp.task('haml', function(){
 	gulp.src('site/components/haml/index.haml')
 		.pipe(haml({
-		  trace: true
+		  trace: true,
+		  doubleQuote: true
 		}))
 		.pipe(gulp.dest(dir))
 		.pipe(connect.reload());
