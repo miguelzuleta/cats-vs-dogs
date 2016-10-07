@@ -13,10 +13,15 @@
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^5.0.0",
     "gulp-if": "^2.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jslint": "^1.0.5",
     "gulp-minify": "0.0.14",
     "gulp-ruby-haml": "0.0.9",
     "gulp-sass": "^2.3.2",
     "gulp-scss-lint": "^0.4.0",
-    "gulp-uglify": "^2.0.0"
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1"
   }
 }
