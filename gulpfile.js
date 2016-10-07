@@ -4,7 +4,8 @@ var gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	connect = require('gulp-connect'),
 	gIF = require('gulp-if'),
-	uglify = require('gulp-uglify');
+	uglify = require('gulp-uglify'),
+	scssLint = require('gulp-scss-lint');
 
 var env = process.env.NODE_ENV || 'envDev',
 	dir,
@@ -38,6 +39,13 @@ gulp.task('haml', function(){
 		.pipe(connect.reload());
 });
 
+gulp.task('sass-lint', function(){
+	gulp.src('site/components/sass/*.scss')
+		.pipe(scssLint({
+			'reporterOutput' : 'site/components/_scssReport.json'
+		}))
+});
+
 gulp.task('sass', function(){
 	gulp.src('site/components/sass/styles.scss')
 		.pipe(sass({
@@ -69,4 +77,4 @@ gulp.task('watch', function(){
 	gulp.watch(dir + '/**/*.*', ['partials']);
 });
 
-gulp.task('default', ['haml', 'sass', 'js', 'connect', 'watch']);
+gulp.task('default', ['haml', 'sass', 'sass-lint', 'js', 'connect', 'watch']);
