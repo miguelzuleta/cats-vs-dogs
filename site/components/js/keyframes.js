@@ -33,7 +33,7 @@ var keyFrames = [
     theme: "init",
     duration: 1
   }
-]
+];
 
 var attack = [
   [ // cats
@@ -100,4 +100,4 @@ var attack = [
       duration: 0
     }
   ]
-]
+];

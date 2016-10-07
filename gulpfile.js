@@ -7,8 +7,7 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	scssLint = require('gulp-scss-lint'),
 	jsLint = require('gulp-jshint'),
-	jsStylish = require('jshint-stylish'),
-	util = require('gulp-util');
+	jsStylish = require('jshint-stylish');
 
 var env = process.env.NODE_ENV || 'envDev',
 	dir,
@@ -82,7 +81,7 @@ gulp.task('partials', function(){
 gulp.task('watch', function(){
 	gulp.watch('site/components/sass/*.scss', ['sass']);
 	gulp.watch('site/components/haml/*.haml', ['haml']);
-	gulp.watch('site/components/js/*.js', ['js']);
+	gulp.watch('site/components/js/*.js', ['js', 'js-hint']);
 	gulp.watch(dir + '/**/*.*', ['partials']);
 });
 

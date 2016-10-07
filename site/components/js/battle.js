@@ -1,5 +1,5 @@
 var firstAttack = Math.round(Math.random()),
-    secondAttack = (firstAttack == 1) ? 0 : 1,
+    secondAttack = (firstAttack === 1) ? 0 : 1,
     deathRange = [2, 15],
     totalRounds = 0,
     roundInterval = true,
@@ -52,7 +52,7 @@ function deathRatio(el){
   for(i=0; i<deathToll.length; i++){
     for(j=0; j<deathToll[i]; j++){
       
-      if(roundInterval == true){
+      if(roundInterval === true){
         team[elCount].classList.add('hit-' + ((i + 1) * 2));
       }
       else{
@@ -70,7 +70,14 @@ function deathRatio(el){
   }
   
   console.log(roundInterval);
-  (roundInterval == true) ? roundInterval = false : roundInterval = true;
+  //(roundInterval === true) ? roundInterval = false : roundInterval = true;
+
+  if(roundInterval === true){
+    roundInterval = false;
+  }
+  else{
+    roundInterval = true;
+  }
 }
 deathRatio(animalTeam[firstAttack]);
 deathRatio(animalTeam[secondAttack]);
@@ -93,7 +100,7 @@ function turnIntervals(){
   i++;
   
   var c = i + 1;
-  var animDuration = (animInit == false) ? 0 : keyFrames[i].duration * 1000,
+  var animDuration = (animInit === false) ? 0 : keyFrames[i].duration * 1000,
       animTheme = keyFrames[c].theme,
       animTarget = keyFrames[c].target,
       animKey = keyFrames[c].key,
@@ -107,7 +114,7 @@ function turnIntervals(){
     
     //console.log(battleOver);
 
-    if(animKey == 'weapon-disengage'){
+    if(animKey === 'weapon-disengage'){
       var deadAnimals = document.querySelectorAll('.hit-' + deathTrigger);
 
       for(k=0; k<deadAnimals.length; k++){
@@ -119,13 +126,13 @@ function turnIntervals(){
         var deadCount = document.querySelectorAll('.animal-' + animalTeam[h] + ' .dead'),
             animalCount = document.querySelectorAll('.animal-' + animalTeam[h] + ' .animal-wrap');
 
-        if(deadCount.length == animalCount.length){
-          console.log('BATTLE OVER')
+        if(deadCount.length === animalCount.length){
+          console.log('BATTLE OVER');
           battleOver = true;
           setAttrs(score, {
             'data-winner': animalTeam[(h === 0 ? 1 : 0)],
             'data-loser': animalTeam[(h === 0 ? 0 : 1)]
-          })
+          });
         }
       }
       deathTrigger++;
@@ -161,7 +168,7 @@ function turnIntervals(){
     
     clearInterval(turns);
     
-    if(battleOver == true){
+    if(battleOver === true){
       clearInterval(turns);
     }
     else{
