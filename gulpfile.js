@@ -6,6 +6,7 @@ var gulp = require('gulp'),
 	gIF = require('gulp-if'),
 	uglify = require('gulp-uglify'),
 	scssLint = require('gulp-scss-lint'),
+	autoprefixer = require('gulp-autoprefixer'),
 	jsLint = require('gulp-jshint'),
 	jsStylish = require('jshint-stylish');
 
@@ -61,6 +62,10 @@ gulp.task('sass', function(){
 			outputStyle: cssOutput,
 			sourceComments: cssComments
 		}).on('error', sass.logError))
+		.pipe(autoprefixer({
+			browsers: ['last 5 versions'],
+			cascade: false
+		}))
 		.pipe(gulp.dest(dir))
 });
 
