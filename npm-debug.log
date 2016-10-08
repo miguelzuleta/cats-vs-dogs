@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/opt/nvm/versions/node/v0.12.15/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@2.15.9
+3 info using node@v0.12.15
+4 verbose node symlink /usr/local/opt/nvm/versions/node/v0.12.15/bin/node
+5 verbose readDependencies loading dependencies from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/package.json
+6 warn package.json cvd@1.0.0 No description
+7 warn package.json cvd@1.0.0 No repository field.
+8 warn package.json cvd@1.0.0 No README data
+9 verbose install where, deps [ '/Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test',
+9 verbose install   [ 'gulp',
+9 verbose install     'gulp-autoprefixer',
+9 verbose install     'gulp-concat',
+9 verbose install     'gulp-connect',
+9 verbose install     'gulp-htmlmin',
+9 verbose install     'gulp-if',
+9 verbose install     'gulp-jshint',
+9 verbose install     'gulp-jslint',
+9 verbose install     'gulp-minify',
+9 verbose install     'gulp-ruby-haml',
+9 verbose install     'gulp-sass',
+9 verbose install     'gulp-scss-lint',
+9 verbose install     'gulp-uglify',
+9 verbose install     'gulp-util',
+9 verbose install     'jshint',
+9 verbose install     'jshint-stylish' ] ]
+10 verbose install where, peers [ '/Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test',
+10 verbose install   [] ]
+11 verbose installManyTop reading for lifecycle /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/package.json
+12 info preinstall cvd@1.0.0
+13 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp/package.json
+14 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-autoprefixer/package.json
+15 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-concat/package.json
+16 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-connect/package.json
+17 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-htmlmin/package.json
+18 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-if/package.json
+19 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-jshint/package.json
+20 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-minify/package.json
+21 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-ruby-haml/package.json
+22 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-sass/package.json
+23 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-scss-lint/package.json
+24 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-uglify/package.json
+25 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/jshint/package.json
+26 verbose installManyTop reading scoped package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/jshint-stylish/package.json
+27 verbose readDependencies loading dependencies from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/package.json
+28 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp/package.json
+29 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-autoprefixer/package.json
+30 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-concat/package.json
+31 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-connect/package.json
+32 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-htmlmin/package.json
+33 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-if/package.json
+34 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-jshint/package.json
+35 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-minify/package.json
+36 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-ruby-haml/package.json
+37 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-sass/package.json
+38 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-scss-lint/package.json
+39 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/gulp-uglify/package.json
+40 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/jshint/package.json
+41 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/jshint-stylish/package.json
+42 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/.bin/gulp/package.json
+43 verbose targetResolver reading package data from /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test/node_modules/.bin/jshint/package.json
+44 verbose already installed skipping gulp-connect@^5.0.0 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+45 verbose already installed skipping gulp-htmlmin@^3.0.0 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+46 verbose already installed skipping gulp-if@^2.0.1 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+47 verbose already installed skipping gulp-jshint@^2.0.1 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+48 silly cache add args [ 'gulp-jslint@^1.0.5', null ]
+49 verbose cache add spec gulp-jslint@^1.0.5
+50 silly cache add parsed spec { raw: 'gulp-jslint@^1.0.5',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'gulp-jslint',
+50 silly cache add   rawSpec: '^1.0.5',
+50 silly cache add   spec: '>=1.0.5 <2.0.0',
+50 silly cache add   type: 'range' }
+51 silly addNamed gulp-jslint@>=1.0.5 <2.0.0
+52 verbose addNamed ">=1.0.5 <2.0.0" is a valid semver range for gulp-jslint
+53 silly addNameRange { name: 'gulp-jslint', range: '>=1.0.5 <2.0.0', hasData: false }
+54 silly mapToRegistry name gulp-jslint
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://npm.apple.com/
+57 silly mapToRegistry data { raw: 'gulp-jslint',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'gulp-jslint',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://npm.apple.com/gulp-jslint
+59 verbose addNameRange registry:https://npm.apple.com/gulp-jslint not in flight; fetching
+60 verbose already installed skipping gulp-minify@0.0.14 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+61 verbose already installed skipping gulp-ruby-haml@0.0.9 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+62 verbose already installed skipping gulp-sass@^2.3.2 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+63 verbose already installed skipping gulp-scss-lint@^0.4.0 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+64 verbose already installed skipping gulp-uglify@^2.0.0 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+65 silly cache add args [ 'gulp-util@^3.0.7', null ]
+66 verbose cache add spec gulp-util@^3.0.7
+67 silly cache add parsed spec { raw: 'gulp-util@^3.0.7',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'gulp-util',
+67 silly cache add   rawSpec: '^3.0.7',
+67 silly cache add   spec: '>=3.0.7 <4.0.0',
+67 silly cache add   type: 'range' }
+68 silly addNamed gulp-util@>=3.0.7 <4.0.0
+69 verbose addNamed ">=3.0.7 <4.0.0" is a valid semver range for gulp-util
+70 silly addNameRange { name: 'gulp-util', range: '>=3.0.7 <4.0.0', hasData: false }
+71 silly mapToRegistry name gulp-util
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://npm.apple.com/
+74 silly mapToRegistry data { raw: 'gulp-util',
+74 silly mapToRegistry   scope: null,
+74 silly mapToRegistry   name: 'gulp-util',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://npm.apple.com/gulp-util
+76 verbose addNameRange registry:https://npm.apple.com/gulp-util not in flight; fetching
+77 verbose already installed skipping jshint@^2.9.3 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+78 verbose request uri https://npm.apple.com/gulp-jslint
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 9:05:46 PM
+81 verbose request id f290e4c0598bb3ad
+82 http request GET https://npm.apple.com/gulp-jslint
+83 verbose already installed skipping jshint-stylish@^2.2.1 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+84 verbose already installed skipping gulp@^3.9.1 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+85 verbose already installed skipping gulp-autoprefixer@^3.1.1 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+86 verbose already installed skipping gulp-concat@^2.6.0 /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+87 verbose request uri https://npm.apple.com/gulp-util
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 9:05:46 PM
+90 http request GET https://npm.apple.com/gulp-util
+91 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND npm.apple.com
+92 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND npm.apple.com
+93 info attempt registry request try #2 at 9:05:56 PM
+94 http request GET https://npm.apple.com/gulp-jslint
+95 info attempt registry request try #2 at 9:05:56 PM
+96 http request GET https://npm.apple.com/gulp-util
+97 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND npm.apple.com
+98 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND npm.apple.com
+99 info attempt registry request try #3 at 9:06:56 PM
+100 http request GET https://npm.apple.com/gulp-jslint
+101 info attempt registry request try #3 at 9:06:56 PM
+102 http request GET https://npm.apple.com/gulp-util
+103 silly get cb [ 304, undefined ]
+104 silly get cb [ 304, undefined ]
+105 verbose stack Error: failed to fetch from registry: https://npm.apple.com/gulp-util
+105 verbose stack     at /usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/lib/cache/caching-client.js:163:27
+105 verbose stack     at /usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/lib/cache/caching-client.js:52:8
+105 verbose stack     at f (/usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/node_modules/once/once.js:17:25)
+105 verbose stack     at /usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:89:10
+105 verbose stack     at f (/usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/node_modules/once/once.js:17:25)
+105 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:186:20)
+105 verbose stack     at Request._callback (/usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:163:20)
+105 verbose stack     at self.callback (/usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/node_modules/request/request.js:200:22)
+105 verbose stack     at Request.emit (events.js:129:20)
+105 verbose stack     at Request.onRequestError (/usr/local/Cellar/nvm/0.31.2/versions/node/v0.12.15/lib/node_modules/npm/node_modules/request/request.js:831:8)
+106 verbose cwd /Users/migzulet/Documents/stuff/resources/training/tests/gulp-tests/cats-vs-dogs/gulp-test
+107 error Darwin 15.4.0
+108 error argv "node" "/usr/local/opt/nvm/versions/node/v0.12.15/bin/npm" "i"
+109 error node v0.12.15
+110 error npm  v2.15.9
+111 error failed to fetch from registry: https://npm.apple.com/gulp-util
+112 error If you need help, you may report this error at:
+112 error     <https://github.com/npm/npm/issues>
+113 verbose exit [ 1, true ]
