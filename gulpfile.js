@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
 	haml = require('gulp-ruby-haml'),
+	htmlmin = require('gulp-htmlmin'),
 	sass = require('gulp-sass'),
 	concat = require('gulp-concat'),
 	connect = require('gulp-connect'),
@@ -36,18 +37,18 @@ gulp.task('connect', function(){
 gulp.task('haml', function(){
 	gulp.src('site/components/haml/index.haml')
 		.pipe(haml({
-		  trace: true,
-		  doubleQuote: true
+		  trace: true
 		}))
+		.pipe(gIF(env !== 'envDev', htmlmin({
+			collapseWhitespace: true
+		})))
 		.pipe(gulp.dest(dir))
 		.pipe(connect.reload());
 });
 
 gulp.task('sass-lint', function(){
 	// gulp.src('site/components/sass/*.scss')
-	// 	.pipe(scssLint({
-	// 		'reporterOutput' : 'site/components/_scssReport.json'
-	// 	}))
+	// 	.pipe(scssLint())
 });
 
 gulp.task('js-hint', function(){
