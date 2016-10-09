@@ -36,7 +36,7 @@ gulp.task('connect', function(){
 
 
 gulp.task('haml', function(){
-	gulp.src('site/components/haml/raw/*.haml')
+	gulp.src('site/components/haml/raw/**/*.haml')
 		.pipe(haml({
 		  trace: true
 		}))
@@ -50,8 +50,8 @@ gulp.task('include', function(){
 		.pipe(gIF(env !== 'envDev', htmlmin({
 			collapseWhitespace: true
 		})))
-		.pipe(gulp.dest(dir))
-		.pipe(connect.reload());
+		.pipe(gulp.dest(dir));
+		//.pipe(connect.reload());
 })
 
 gulp.task('sass-lint', function(){
@@ -95,8 +95,8 @@ gulp.task('partials', function(){
 
 gulp.task('watch', function(){
 	gulp.watch('site/components/sass/*.scss', ['sass']);
-	gulp.watch('site/components/haml/**/*.haml', ['haml']);
-	gulp.watch('site/components/haml/**/*.html', ['include']);
+	gulp.watch('site/components/haml/raw/**/*.haml', ['haml']);
+	gulp.watch('site/components/haml/processed/**/*.html', ['include']);
 	gulp.watch('site/components/js/*.js', ['js', 'js-hint']);
 	gulp.watch(dir + '/**/*.*', ['partials']);
 });

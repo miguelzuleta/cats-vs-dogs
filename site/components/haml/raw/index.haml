@@ -5,7 +5,6 @@
     %title Cats vs Dogs
     %link(rel = "stylesheet" href = "styles.css")
   %body
-    <!--=include test.html -->
     %div(class="main" data-anim-key="animals-init")
       .score
         .play
@@ -28,70 +27,9 @@
                 %div(class = "#{i} bod furr stroke")
                   .halo
                   -if i == 'cat'
-                    .ear.ear-left.furr.stroke
-                    .ear.ear-right.furr.stroke
-                    .face
-                      .eyebrow
-                      .eye
-                        .pupil
-                      .nose
-                      .whiskers
-                        -3.times do
-                          .whisker
-                    .arm.furr-2
-                    .leg.leg-left.furr.stroke
-                    .leg.leg-right.furr.stroke
-                    .tail
-                      -5.times do
-                        .tail-section.furr.stroke
+                    <!--=include animal/cat.html -->
                   -if i == 'dog'
-                    .ear.furr-2
-                    .face
-                      .eyebrow
-                      .eye
-                        .pupil
-                      .snout.furr-2.stroke
-                        .nose
-                    .arm.furr-2
-                    .leg.leg-left.furr.stroke
-                    .leg.leg-right.furr.stroke
-                    .tail.furr-2.stoke
-        .cat.weapon.raygun
-          .shell
-            -4.times do
-              .charger
-          .laser.barrel
-            -4.times do
-              .laser.ring
-            .rays
-              -(1..3).each do |j|
-                %div(class = "ray-wrap-#{j}")
-                  -(1..2).each do |i|
-                    %div(class = "ray ray-#{i}")
-                      -16.times do
-                        .ray-bit
-          .stand
-          .base
-            -2.times do
-              .wheel
-                .rim.hub
-                .spokes
-                  -3.times do
-                    .rim.spoke
-                      <!--=include inc2.html -->
-                      <!--=include inc4.html -->
-                      <!--=include inc5.html -->
-        .dog.weapon.cannon
-          .trajectory
-            .ball
-          .barrel.muzzle
-            .barrel.cascabel
-          .wheel
-            .spokes
-              -9.times do
-                .spoke
-                  <!--=include inc3.html -->
-                  <!--=include inc2.html -->
-                  <!--=include inc4.html -->
-                  <!--=include inc5.html -->
+                    <!--=include animal/dog.html -->
+        <!--=include gun/raygun.html -->
+        <!--=include gun/cannon.html -->
     %script(src = "js.js")
