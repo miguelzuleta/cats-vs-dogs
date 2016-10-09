@@ -41,7 +41,6 @@ gulp.task('haml', function(){
 		  trace: true
 		}))
 		.pipe(gulp.dest('site/components/haml/processed'));
-		//.pipe(connect.reload());
 });
 
 gulp.task('include', function(){
@@ -51,7 +50,6 @@ gulp.task('include', function(){
 			collapseWhitespace: true
 		})))
 		.pipe(gulp.dest(dir));
-		//.pipe(connect.reload());
 })
 
 gulp.task('sass-lint', function(){
