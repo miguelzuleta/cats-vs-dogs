@@ -9,7 +9,8 @@ var gulp = require('gulp'),
 	scssLint = require('gulp-scss-lint'),
 	autoprefixer = require('gulp-autoprefixer'),
 	jsLint = require('gulp-jshint'),
-	jsStylish = require('jshint-stylish');
+	jsStylish = require('jshint-stylish'),
+	include       = require("gulp-include");
 
 var env = process.env.NODE_ENV || 'envDev',
 	dir,
@@ -35,16 +36,23 @@ gulp.task('connect', function(){
 
 
 gulp.task('haml', function(){
-	gulp.src('site/components/haml/index.haml')
+	gulp.src('site/components/haml/raw/*.haml')
 		.pipe(haml({
 		  trace: true
 		}))
+		.pipe(gulp.dest('site/components/haml/processed'));
+		//.pipe(connect.reload());
+});
+
+gulp.task('include', function(){
+	gulp.src('site/components/haml/processed/index.html')
+		.pipe(include())
 		.pipe(gIF(env !== 'envDev', htmlmin({
 			collapseWhitespace: true
 		})))
 		.pipe(gulp.dest(dir))
 		.pipe(connect.reload());
-});
+})
 
 gulp.task('sass-lint', function(){
 	// gulp.src('site/components/sass/*.scss')
@@ -87,9 +95,10 @@ gulp.task('partials', function(){
 
 gulp.task('watch', function(){
 	gulp.watch('site/components/sass/*.scss', ['sass']);
-	gulp.watch('site/components/haml/*.haml', ['haml']);
+	gulp.watch('site/components/haml/**/*.haml', ['haml']);
+	gulp.watch('site/components/haml/**/*.html', ['include']);
 	gulp.watch('site/components/js/*.js', ['js', 'js-hint']);
 	gulp.watch(dir + '/**/*.*', ['partials']);
 });
 
-gulp.task('default', ['haml', 'sass', 'js', 'sass-lint', 'js-hint', 'connect', 'watch']);
+gulp.task('default', ['haml', 'include', 'sass', 'js', 'sass-lint', 'js-hint', 'connect', 'watch']);
