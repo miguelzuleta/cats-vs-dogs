@@ -1,0 +1,22 @@
+.cat.weapon.raygun
+  .shell
+    -4.times do
+      .charger
+  .laser.barrel
+    -4.times do
+      .laser.ring
+    .rays
+      -(1..3).each do |j|
+        %div(class = "ray-wrap-#{j}")
+          -(1..2).each do |i|
+            %div(class = "ray ray-#{i}")
+              -16.times do
+                .ray-bit
+  .stand
+  .base
+    -2.times do
+      .wheel
+        .rim.hub
+        .spokes
+          -3.times do
+            .rim.spoke
